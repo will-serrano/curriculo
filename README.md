@@ -1,3 +1,3 @@
 "# curriculo" 
 
-[2019-04-05] - Criação de segundo currículo para atender melhorar o detalhamento das experiências
+Alteração no dia 05/04/2019 para processo seletivo da Meta
