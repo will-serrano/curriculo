@@ -1,0 +1,47 @@
+{
+    "nome": "Willian Nascimento Serrano",
+    "titulo": "Analista de Sistemas Sênior",
+    "contato": {
+        "localizacao": "Itanhaém - SP",
+        "telefone": "(13) 99791-8797",
+        "email": "will.serrano.job@gmail.com"
+    },
+    "resumo": "Mais de 10 anos de experiência no desenvolvimento de sistemas robustos, com expertise em tecnologias .NET, APIs REST, microsserviços e CI/CD. Proficiente em análise de problemas e entrega de soluções otimizadas em ambientes corporativos.",
+    "experiencias": [
+        {
+            "empresa": "GOCIL",
+            "cargo": "Analista de Sistemas Sênior",
+            "periodo": "1 ano e 5 meses",
+            "descricao": "Sustentação e desenvolvimento do sistema SGO, gerenciando contratos e propostas da empresa.",
+            "tecnologias": ".NET Core, API REST, MongoDB, AngularJS, CI/CD"
+        },
+        {
+            "empresa": "Tecsidel do Brasil",
+            "cargo": "Analista de Sistemas Sênior",
+            "periodo": "2 anos e 11 meses",
+            "descricao": "Desenvolvimento e manutenção de sistemas de controle de tráfego e pedágios.",
+            "tecnologias": ".NET Core, PL/SQL, Serviços WCF, Transact-SQL"
+        }
+    ],
+    "competencias": [
+        "C#",
+        ".NET Core",
+        "API REST",
+        "Entity Framework",
+        "Dapper",
+        "SQL Server",
+        "Oracle",
+        "AngularJS",
+        "CI/CD"
+    ],
+    "educacao": [
+        {
+            "instituicao": "FATEC Praia Grande",
+            "curso": "Análise e Desenvolvimento de Sistemas"
+        },
+        {
+            "instituicao": "ETEC Aristóteles Ferreira",
+            "curso": "Técnico em Eletroeletrônica"
+        }
+    ]
+}

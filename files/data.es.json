@@ -1,0 +1,19 @@
+{
+    "nome": "Willian Nascimento Serrano",
+    "titulo": "Analista de Sistemas Senior",
+    "contato": {
+        "localizacao": "Itanhaém - SP",
+        "telefone": "(13) 99791-8797",
+        "email": "will.serrano.job@gmail.com"
+    },
+    "resumo": "Más de 10 años de experiencia desarrollando sistemas robustos...",
+    "experiencias": [
+        {
+            "empresa": "GOCIL",
+            "cargo": "Analista de Sistemas Senior",
+            "periodo": "1 año y 5 meses",
+            "descricao": "Mantenimiento y desarrollo del sistema SGO...",
+            "tecnologias": ".NET Core, API REST, MongoDB, AngularJS, CI/CD"
+        }
+    ]
+}

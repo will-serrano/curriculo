@@ -1,0 +1,92 @@
+/* Estilos globais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Container principal */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalhos */
+h1, h2, h3 {
+    color: #002060;
+}
+
+/* Seções */
+.section {
+    margin-bottom: 20px;
+}
+
+/* Contato */
+#contact p a {
+    color: #0073E6;
+    text-decoration: none;
+}
+
+#contact p a:hover {
+    text-decoration: underline;
+}
+
+/* Experiências e Educação */
+.job, .education-item {
+    margin-bottom: 15px;
+}
+
+/* Competências */
+.skills span {
+    background: #0073E6;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* Estilo para o SELECT */
+#language-switch {
+    appearance: none; /* Remove o estilo padrão do navegador */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #002060;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Adiciona seta customizada para o SELECT */
+#language-switch {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23002060" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5H7z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+}
+
+/* Hover para o SELECT */
+#language-switch:hover {
+    border-color: #002060;
+}
+
+/* Estilo para os OPTION */
+#language-switch option {
+    font-size: 14px;
+    color: #002060;
+    padding: 5px;
+}
