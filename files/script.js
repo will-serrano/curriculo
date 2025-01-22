@@ -1,6 +1,7 @@
 (function () {
     const CurriculoModule = (function () {
         let currentLanguage = "pt-br"; // Idioma padrão
+        let currentTheme = "light"; // Tema padrão
 
         // Função para carregar os dados do JSON do idioma selecionado
         const fetchData = async (language) => {
@@ -74,17 +75,28 @@
             renderCurriculo();
         };
 
+        // Alternar Tema
+        const changeTheme = (theme) => {
+            currentTheme = theme;
+            document.body.className = theme;
+        };
+
         return {
             renderCurriculo,
-            changeLanguage
+            changeLanguage,
+            changeTheme
         };
     })();
 
     // Inicializa o módulo
     CurriculoModule.renderCurriculo();
 
-    // Evento para mudar idioma
+    // Eventos para mudar idioma e tema
     document.querySelector("#language-switch").addEventListener("change", (event) => {
         CurriculoModule.changeLanguage(event.target.value);
+    });
+
+    document.querySelector("#theme-switch").addEventListener("change", (event) => {
+        CurriculoModule.changeTheme(event.target.value);
     });
 })();

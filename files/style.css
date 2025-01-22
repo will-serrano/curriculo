@@ -52,8 +52,8 @@ h1, h2, h3 {
     border-radius: 5px;
 }
 
-/* Estilo para o SELECT */
-#language-switch {
+/* Estilo base para todos os SELECT */
+.custom-select {
     appearance: none; /* Remove o estilo padrão do navegador */
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -72,7 +72,7 @@ h1, h2, h3 {
 }
 
 /* Adiciona seta customizada para o SELECT */
-#language-switch {
+.custom-select {
     background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23002060" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5H7z"/></svg>');
     background-repeat: no-repeat;
     background-position: right 10px center;
@@ -80,13 +80,29 @@ h1, h2, h3 {
 }
 
 /* Hover para o SELECT */
-#language-switch:hover {
+.custom-select:hover {
     border-color: #002060;
 }
 
 /* Estilo para os OPTION */
-#language-switch option {
+.custom-select option {
     font-size: 14px;
     color: #002060;
     padding: 5px;
+}
+
+
+body.dark {
+    background-color: #1e1e1e;
+    color: #ddd;
+}
+
+body.dark .container {
+    background-color: #2a2a2a;
+    color: #ddd;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+body.dark h1, body.dark h2, body.dark h3 {
+    color: #8ab4f8;
 }
