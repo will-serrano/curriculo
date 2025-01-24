@@ -120,38 +120,63 @@ const { jsPDF } = window.jspdf;
         };
 
         const downloadPDF = async () => {
-            const data = await fetchData(currentLanguage);
-            if (!data) return;
-        
-            const doc = new jsPDF();
-        
-            // Adiciona título
-            doc.setFontSize(18);
-            doc.text(data.nome, 10, 20);
-            doc.setFontSize(14);
-            doc.text(data.titulo, 10, 30);
-        
-            // Adiciona conteúdo
-            doc.setFontSize(12);
-            doc.text(data.titulos.resumo, 10, 50);
-            doc.text(data.resumo, 10, 60);
-        
-            // Adiciona experiência
-            let yPosition = 80;
-            doc.text(data.titulos.experiencia, 10, yPosition);
-            yPosition += 10;
-            data.experiencias.forEach(job => {
-                doc.text(`${job.empresa} | ${job.cargo}`, 10, yPosition);
-                yPosition += 10;
-                doc.text(`Período: ${job.periodo}`, 10, yPosition);
-                yPosition += 10;
-                doc.text(`Descrição: ${job.descricao}`, 10, yPosition);
-                yPosition += 20; // Espaçamento
+            const doc = new jsPDF({
+                orientation: "portrait",
+                unit: "mm",
+                format: "a4"
             });
         
-            // Salva o PDF
-            doc.save(`${data.nome.replaceAll(" ", "")}.curriculo.pdf`);
-        };
+            const data = await fetchData(currentLanguage);
+            let yPosition = 20;
+        
+            doc.setFont("Helvetica", "bold");
+            doc.setFontSize(16);
+            doc.text(data.nome, 105, yPosition, { align: "center" });
+            yPosition += 10;
+        
+            doc.setFont("Helvetica", "normal");
+            doc.setFontSize(14);
+            doc.text(data.titulo, 105, yPosition, { align: "center" });
+            yPosition += 20;
+        
+            doc.setFontSize(12);
+            doc.text("Resumo Profissional:", 10, yPosition);
+            yPosition += 10;
+            const resumo = doc.splitTextToSize(data.resumo, 180);
+            doc.text(resumo, 10, yPosition);
+            yPosition += resumo.length * 8;
+        
+            doc.text("Experiência Profissional:", 10, yPosition);
+            yPosition += 10;
+        
+            data.experiencias.forEach((job) => {
+                doc.setFont("Helvetica", "bold");
+                doc.text(`${job.empresa} | ${job.cargo}`, 10, yPosition);
+                yPosition += 8;
+        
+                doc.setFont("Helvetica", "normal");
+                doc.text(`Período: ${job.periodo}`, 10, yPosition);
+                yPosition += 8;
+        
+                doc.text("Descrição:", 10, yPosition);
+                yPosition += 8;
+                job.descricao.forEach((desc) => {
+                    doc.text(`- ${desc}`, 10, yPosition);
+                    yPosition += 8;
+                });
+        
+                doc.text("Tecnologias Utilizadas:", 10, yPosition);
+                yPosition += 8;
+                job.tecnologias.forEach((tech) => {
+                    doc.text(`- ${tech}`, 10, yPosition);
+                    yPosition += 8;
+                });
+        
+                yPosition += 10; // Espaço entre experiências
+            });
+        
+            doc.save(`${data.nome.replaceAll(" ", "_")}_curriculo.pdf`);
+        };      
 
         return {
             renderCurriculo,

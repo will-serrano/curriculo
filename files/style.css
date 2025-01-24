@@ -57,6 +57,13 @@ body.dark h3 {
 }
 
 /* Competências */
+.skills {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+
 .skills span {
     background: #0073E6;
     color: white;
@@ -64,6 +71,10 @@ body.dark h3 {
     margin: 5px;
     display: inline-block;
     border-radius: 5px;
+    border: 1px solid #ddd; /* Borda sutil */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    transition: all 0.3s ease; /* Transição suave */
+    font-weight: bold;
 }
 
 body.dark .skills span {
@@ -318,4 +329,79 @@ body.dark .job:nth-child(even) {
 /* Modo Escuro */
 body.dark .job:not(:last-child) {
     border-bottom: 2px solid #444;
+}
+
+/* Estilos específicos para impressão */
+@media print {
+    /* Oculta os botões e selects na impressão */
+    .controls, 
+    button, 
+    select {
+        display: none;
+    }
+
+    /* Ajusta o layout para impressão */
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+        color: #000; /* Usa texto preto para impressão */
+        background: none; /* Remove qualquer fundo */
+    }
+
+    /* Remove margens desnecessárias */
+    .container {
+        padding: 0;
+    }
+
+    /* Adiciona margens ao currículo para melhor alinhamento */
+    #curriculo {
+        margin: 10mm; /* Margem consistente */
+        page-break-inside: avoid; /* Impede quebra dentro do contêiner principal */
+        page-break-before: auto; /* Impede quebra dentro do contêiner principal */
+        page-break-after: auto; /* Impede quebra dentro do contêiner principal */
+    }
+
+    /* Ajusta links para impressão */
+    a {
+        color: #000;
+        text-decoration: underline;
+    }
+
+    /* Impede que os blocos de experiência sejam divididos entre páginas */
+    .job {
+        page-break-inside: avoid; /* Evita quebra dentro do elemento */
+        margin-bottom: 20px; /* Espaço entre as seções */
+    }
+
+    /* Impede quebra dentro de listas */
+    ul {
+        page-break-inside: avoid;
+    }
+
+    /* Contêiner de competências */
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    /* Etiquetas de competência */
+    .skills span {
+        display: inline-block;
+        padding: 8px 12px;
+        background-color: #0073E6 !important; /* Força a cor de fundo */
+        color: white !important; /* Força a cor do texto */
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: bold;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Ajuste para evitar margens desnecessárias */
+    .skills span:last-child {
+        margin-right: 0;
+    }
 }
