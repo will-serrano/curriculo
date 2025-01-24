@@ -22,6 +22,20 @@ h1, h2, h3 {
     color: #002060;
 }
 
+h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #0073E6; /* Linha decorativa abaixo do título */
+    padding-bottom: 5px;
+    color: #0073E6;
+}
+
+/* Tema Escuro */
+body.dark h3 {
+    border-color: #edf5a4;
+    color: #edf5a4;
+}
+
 /* Seções */
 .section {
     margin-bottom: 20px;
@@ -46,6 +60,15 @@ h1, h2, h3 {
 .skills span {
     background: #0073E6;
     color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+body.dark .skills span {
+    background: #FFFFAA;
+    color: black;
     padding: 5px 10px;
     margin: 5px;
     display: inline-block;
@@ -103,5 +126,181 @@ body.dark .container {
 }
 
 body.dark h1, body.dark h2, body.dark h3 {
-    color: #8ab4f8;
+    color: #edf5a4;
+}
+
+/* Estilo base para botões */
+button {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Botão no tema claro */
+button {
+    background-color: #007bff;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Botão no tema escuro */
+body.dark button {
+    background-color: #FFFFAA;
+    color: #000;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+body.dark button:hover {
+    background-color: #DDDD55;
+    color: #000;
+}
+
+/* Estilo padrão para o link de email */
+a {
+    color: #0073E6; /* Cor azul padrão */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    font-weight: bold; /* Deixa o texto em negrito */
+    transition: color 0.3s ease; /* Efeito de transição na cor */
+}
+
+/* Efeito de hover no link */
+a:hover {
+    color: #005bb5; /* Azul mais escuro ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado ao hover */
+}
+
+/* Para links dentro do contêiner de contato */
+#contact a {
+    font-size: 14px; /* Tamanho de fonte específico */
+    padding: 2px 4px; /* Espaçamento interno */
+    border: 1px solid transparent; /* Sem borda padrão */
+    border-radius: 4px; /* Cantos arredondados */
+    transition: all 0.3s ease; /* Suaviza todas as transições */
+}
+
+/* Hover para links dentro do contêiner de contato */
+#contact a:hover {
+    background-color: #f4f4f4; /* Fundo cinza claro no hover */
+    color: #333; /* Texto mais escuro */
+    border-color: #ddd; /* Adiciona borda no hover */
+}
+
+/* Links no modo escuro */
+body.dark a {
+    color: #8ab4f8; /* Azul claro */
+}
+
+body.dark a:hover {
+    color: #4e8cd9; /* Azul mais escuro ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado no hover */
+}
+
+/* Links no contêiner de contato no modo escuro */
+body.dark #contact a {
+    font-size: 14px;
+    padding: 2px 4px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #8ab4f8; /* Azul claro padrão */
+}
+
+body.dark #contact a:hover {
+    background-color: #333; /* Fundo mais escuro no hover */
+    color: #ffffff; /* Texto branco */
+    border-color: #555; /* Adiciona borda escura no hover */
+}
+
+/* Estilo para Tecnologias no Modo Claro */
+.technologies {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.technologies span {
+    background-color: #f4f4f4; /* Fundo claro */
+    color: #333; /* Texto escuro */
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #ddd; /* Borda sutil */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    transition: all 0.3s ease; /* Transição suave */
+}
+
+/* Efeito de hover */
+.technologies span:hover {
+    background-color: #0073E6; /* Fundo azul no hover */
+    color: white; /* Texto branco no hover */
+    border-color: #005bb5; /* Azul mais escuro na borda */
+}
+
+/* Estilo para Tecnologias no Modo Escuro */
+body.dark .technologies span {
+    background-color: #333; /* Fundo escuro */
+    color: #ddd; /* Texto claro */
+    border: 1px solid #555; /* Borda escura */
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Sombra sutil no modo escuro */
+}
+
+body.dark .technologies span:hover {
+    background-color: #FFFFAA; /* Azul claro no hover */
+    color: #000; /* Texto branco */
+    border-color: #DDDD55; /* Borda azul clara */
+}
+
+/* Estilo do contêiner de cada experiência */
+.job {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd; /* Borda sutil */
+    border-radius: 8px; /* Cantos arredondados */
+    background-color: #f9f9f9; /* Fundo claro */
+}
+
+/* Modo Escuro */
+body.dark .job {
+    background-color: #222; /* Fundo escuro */
+    border-color: #444; /* Borda escura */
+}
+
+/* Fundo alternado para experiências */
+.job:nth-child(odd) {
+    background-color: #f4f4f4; /* Fundo mais claro para linhas ímpares */
+}
+
+.job:nth-child(even) {
+    background-color: #fff; /* Fundo padrão para linhas pares */
+}
+
+/* Modo Escuro */
+body.dark .job:nth-child(odd) {
+    background-color: #2a2a2a; /* Fundo mais claro no tema escuro */
+}
+
+body.dark .job:nth-child(even) {
+    background-color: #333; /* Fundo padrão no tema escuro */
+}
+
+/* Linha divisória entre experiências */
+.job:not(:last-child) {
+    border-bottom: 2px solid #ddd; /* Linha entre experiências */
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+/* Modo Escuro */
+body.dark .job:not(:last-child) {
+    border-bottom: 2px solid #444;
 }

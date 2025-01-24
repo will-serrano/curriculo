@@ -1,3 +1,5 @@
+const { jsPDF } = window.jspdf;
+
 (function () {
     const CurriculoModule = (function () {
         let currentLanguage = "pt-br"; // Idioma padrão
@@ -25,7 +27,9 @@
                 container.appendChild(createSection("header", buildHeader(data)));
                 container.appendChild(createSection("contact", buildContact(data)));
                 container.appendChild(createSection("summary", buildSummary(data)));
+                container.appendChild(createSection("skills", buildSkills(data)));
                 container.appendChild(createSection("experience", buildExperience(data)));
+                container.appendChild(createSection("education", buildEducation(data)));
             }
         };
 
@@ -40,6 +44,17 @@
             <a href="mailto:${data.contato.email}">${data.contato.email}</a></p>
         `;
 
+        const buildSkills = (data) => {
+            let skillsHTML = `<h3>${data.titulos.competencias}</h3><div class="skills">`;
+        
+            data.competencias.forEach(skill => {
+                skillsHTML += `<span>${skill}</span>`;
+            });
+        
+            skillsHTML += '</div>';
+            return skillsHTML;
+        };
+
         const buildSummary = (data) => `
             <h3>Resumo Profissional</h3>
             <p>${data.resumo}</p>
@@ -52,12 +67,35 @@
                     <div class="job">
                         <h4>${job.empresa} | ${job.cargo}</h4>
                         <p><strong>Período:</strong> ${job.periodo}</p>
-                        <p>${job.descricao}</p>
-                        <p><strong>Tecnologias:</strong> ${job.tecnologias}</p>
+                        <ul>
+                            ${job.descricao.map(item => `<li>${item}</li>`).join('')}
+                        </ul>
+                        <p><strong>Tecnologias:</strong></p>
+                        <div class="technologies">
+                            ${job.tecnologias.map(tech => `<span>${tech}</span>`).join('')}
+                        </div>
                     </div>
                 `;
             });
             return experienceHTML;
+        };
+        
+        
+
+        const buildEducation = (data) => {
+            // Adiciona o título da seção
+            let educationHTML = `<h3>${data.titulos.educacao}</h3>`;
+        
+            // Itera sobre as instituições no JSON e cria um bloco para cada uma
+            data.educacao.forEach(edu => {
+                educationHTML += `
+                    <div class="education-item">
+                        <p><strong>${edu.instituicao}</strong> - ${edu.curso}</p>
+                    </div>
+                `;
+            });
+        
+            return educationHTML;
         };
 
         // Função para criar uma seção
@@ -81,10 +119,45 @@
             document.body.className = theme;
         };
 
+        const downloadPDF = async () => {
+            const data = await fetchData(currentLanguage);
+            if (!data) return;
+        
+            const doc = new jsPDF();
+        
+            // Adiciona título
+            doc.setFontSize(18);
+            doc.text(data.nome, 10, 20);
+            doc.setFontSize(14);
+            doc.text(data.titulo, 10, 30);
+        
+            // Adiciona conteúdo
+            doc.setFontSize(12);
+            doc.text(data.titulos.resumo, 10, 50);
+            doc.text(data.resumo, 10, 60);
+        
+            // Adiciona experiência
+            let yPosition = 80;
+            doc.text(data.titulos.experiencia, 10, yPosition);
+            yPosition += 10;
+            data.experiencias.forEach(job => {
+                doc.text(`${job.empresa} | ${job.cargo}`, 10, yPosition);
+                yPosition += 10;
+                doc.text(`Período: ${job.periodo}`, 10, yPosition);
+                yPosition += 10;
+                doc.text(`Descrição: ${job.descricao}`, 10, yPosition);
+                yPosition += 20; // Espaçamento
+            });
+        
+            // Salva o PDF
+            doc.save(`${data.nome.replaceAll(" ", "")}.curriculo.pdf`);
+        };
+
         return {
             renderCurriculo,
             changeLanguage,
-            changeTheme
+            changeTheme,
+            downloadPDF
         };
     })();
 
@@ -98,5 +171,9 @@
 
     document.querySelector("#theme-switch").addEventListener("change", (event) => {
         CurriculoModule.changeTheme(event.target.value);
+    });
+
+    document.querySelector("#download-pdf").addEventListener("click", () => {
+        CurriculoModule.downloadPDF();
     });
 })();
