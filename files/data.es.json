@@ -6,6 +6,12 @@
         "telefone": "(13) 99791-8797",
         "email": "will.serrano.job@gmail.com"
     },
+    "titulos": {
+        "resumo": "Professional Summary",
+        "experiencia": "Professional Experience",
+        "competencias": "Core Competencies",
+        "educacao": "Education"
+    },
     "resumo": "Más de 10 años de experiencia desarrollando sistemas robustos...",
     "experiencias": [
         {

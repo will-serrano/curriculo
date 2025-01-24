@@ -6,33 +6,85 @@
         "telefone": "(13) 99791-8797",
         "email": "will.serrano.job@gmail.com"
     },
+    "titulos": {
+        "resumo": "Resumo Profissional",
+        "experiencia": "Experiência Profissional",
+        "competencias": "Competências Principais",
+        "educacao": "Educação"
+    },
     "resumo": "Mais de 10 anos de experiência no desenvolvimento de sistemas robustos, com expertise em tecnologias .NET, APIs REST, microsserviços e CI/CD. Proficiente em análise de problemas e entrega de soluções otimizadas em ambientes corporativos.",
     "experiencias": [
         {
-            "empresa": "GOCIL",
-            "cargo": "Analista de Sistemas Sênior",
-            "periodo": "1 ano e 5 meses",
-            "descricao": "Sustentação e desenvolvimento do sistema SGO, gerenciando contratos e propostas da empresa.",
-            "tecnologias": ".NET Core, API REST, MongoDB, AngularJS, CI/CD"
-        },
-        {
             "empresa": "Tecsidel do Brasil",
             "cargo": "Analista de Sistemas Sênior",
-            "periodo": "2 anos e 11 meses",
-            "descricao": "Desenvolvimento e manutenção de sistemas de controle de tráfego e pedágios.",
-            "tecnologias": ".NET Core, PL/SQL, Serviços WCF, Transact-SQL"
+            "periodo": "2022 - Atual",
+            "descricao": [
+                "Desenvolvi sistemas críticos para controle de tráfego e pedágios, garantindo alta disponibilidade e conformidade com requisitos governamentais.",
+                "Criei relatórios customizáveis para controle de passagens, ampliando a aplicação para diversos clientes e gerando receita adicional.",
+                "Implementei um microsserviço para transmissão de dados de tráfego, integrando o sistema ao Sentry e aumentando a eficiência do processo."
+            ],
+            "tecnologias": [".NET Core", "C#", "ASP.NET", "SQL Server", "Oracle", "AJAX", "WCF"],
+            "ambiente": "Remoto, colaborativo com equipes nacionais e internacionais."
+        },
+        {
+            "empresa": "BLK (Grupo B3)",
+            "cargo": "Analista de Sistemas Sênior",
+            "periodo": "2021 - 2022",
+            "descricao": [
+                "Realizei manutenção do sistema Robotrader, garantindo estabilidade e desempenho em ambiente financeiro.",
+                "Migrei o sistema de controle de acesso do VB6 para uma solução moderna em Angular.",
+                "Desenvolvi modelos de banco de dados e queries otimizadas para o novo sistema."
+            ],
+            "tecnologias": [".NET Core", "C#", "ASP.NET", "Angular", "SQL Server", "FIX Protocol", "Jenkins"],
+            "ambiente": "Home office, com alta colaboração entre equipes."
+        },
+        {
+            "empresa": "SKY Brasil",
+            "cargo": "Analista de Sistemas Sênior",
+            "periodo": "2018 - 2021",
+            "descricao": [
+                "Automatizei o pareamento de Decoders e SmartCards, reduzindo o tempo de processamento de 16 horas para 10 minutos.",
+                "Implementei validações automatizadas entre sistemas de estoque e parceiros, diminuindo erros manuais e otimizando operações comerciais.",
+                "Atuei na sustentação de processos financeiros críticos, integrando sistemas de comissionamento e garantindo confiabilidade dos dados."
+            ],
+            "tecnologias": ["C#", "ASP.NET", "SQL Server", "Oracle", "DTS", "ODI", "Power Automate"],
+            "ambiente": "Híbrido, colaborando com equipes de TI e negócios."
+        },
+        {
+            "empresa": "Hexa Solution",
+            "cargo": "Analista de Sistemas Pleno",
+            "periodo": "2016 - 2018",
+            "descricao": [
+                "Sustentei sistemas de controle de códigos-fonte para o cliente Bradesco Alphaville.",
+                "Atuei em melhorias de processos e automação de rotinas críticas."
+            ],
+            "tecnologias": ["C#", "SQL Server", "ASP.NET"]
+        },
+        {
+            "empresa": "MPS Informática",
+            "cargo": "Analista de Sistemas Pleno",
+            "periodo": "2014 - 2016",
+            "descricao": [
+                "Sustentei sistemas de Recursos Humanos para o Tribunal de Justiça de São Paulo (TJSP).",
+                "Implementei melhorias e otimizações em sistemas de gestão."
+            ],
+            "tecnologias": ["VB.NET", "SQL Server"]
+        },
+        {
+            "empresa": "Hexa Solution",
+            "cargo": "Estagiário / Analista de Sistemas Júnior",
+            "periodo": "2011 - 2014",
+            "descricao": [
+                "Atuei na sustentação de sistemas e suporte técnico em ambiente corporativo.",
+                "Adquiri experiência prática no desenvolvimento e manutenção de sistemas."
+            ],
+            "tecnologias": ["C#", "SQL Server"]
         }
     ],
     "competencias": [
-        "C#",
-        ".NET Core",
-        "API REST",
-        "Entity Framework",
-        "Dapper",
-        "SQL Server",
-        "Oracle",
-        "AngularJS",
-        "CI/CD"
+        "C#", ".NET Core", "API RESTful", "SQL Server", "Angular", 
+        "ASP.NET", "Design Patterns", "SOLID Principles", "WCF", 
+        "DTS", "ODI", "Jenkins", "Power Automate"
     ],
     "educacao": [
         {
@@ -42,6 +94,14 @@
         {
             "instituicao": "ETEC Aristóteles Ferreira",
             "curso": "Técnico em Eletroeletrônica"
+        },
+        {
+            "instituicao": "ETEC Adolpho Berezin",
+            "curso": "Técnico em Informática"
         }
-    ]
+    ],
+    "idiomas": {
+        "espanhol": "Avançado",
+        "ingles": "Intermediário"
+    }
 }
