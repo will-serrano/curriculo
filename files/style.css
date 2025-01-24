@@ -164,6 +164,21 @@ body.dark button:hover {
     color: #000;
 }
 
+/* Ajustes para dispositivos menores */
+@media (max-width: 768px) {
+    button {
+        width: 100%; /* Ocupa toda a largura do contêiner */
+        font-size: 16px; /* Texto ligeiramente maior */
+        padding: 12px; /* Mais espaçamento interno */
+    }
+
+    .controls {
+        display: flex;
+        flex-direction: column; /* Empilha os elementos verticalmente */
+        gap: 10px; /* Espaçamento entre os elementos */
+    }
+}
+
 /* Estilo padrão para o link de email */
 a {
     color: #0073E6; /* Cor azul padrão */
