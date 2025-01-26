@@ -10,9 +10,12 @@
         "resumo": "Resumen Profesional",
         "experiencia": "Experiencia Profesional",
         "competencias": "Competencias Principales",
-        "educacao": "Educación"
+        "educacao": "Educación",
+        "periodo": "Período",
+        "tecnologia": "Tecnologías",
+        "idiomas": "Idiomas"
     },
-    "resumo": "Más de 10 años de experiencia en el desarrollo de sistemas robustos, con experiencia en tecnologías .NET, APIs REST, microservicios y CI/CD. Experto en análisis de problemas y entrega de soluciones optimizadas en entornos corporativos.",
+    "resumo": "Más de 10 años de experiencia en el <b>desarrollo</b> y <b>mantenimiento</b> de sistemas robustos., con experiencia en tecnologías .NET, APIs REST, microservicios y CI/CD. Experto en análisis de problemas y entrega de soluciones optimizadas en entornos corporativos.",
     "experiencias": [
         {
             "empresa": "Ambev",
@@ -170,9 +173,8 @@
         }
     ],
     "competencias": [
-        "C#", ".NET Core", "API RESTful", "SQL Server", "Angular", 
-        "ASP.NET", "Patrones de Diseño", "Principios SOLID", "WCF", 
-        "DTS", "ODI", "Jenkins", "Power Automate"
+    "C# y .NET Core", "Javascript y Typescript", "Entity Framework y Dapper", "SOLID y Patrones de Diseño", "TDD y Clean Code", "APIs RESTful y Swagger/OpenAPI", "Pruebas Unitarias con xUnit/NUnit y Mocking",
+    "SQL Server y MongoDB", "Docker y Kubernetes", "Jenkins y Octopus", "Nexus y SonarQube"
     ],
     "educacao": [
         {
@@ -188,8 +190,18 @@
             "curso": "Técnico en Informática"
         }
     ],
-    "idiomas": {
-        "espanhol": "Avanzado",
-        "ingles": "Intermedio"
-    }
+    "idiomas": [
+        {
+            "idioma": "Portugués", 
+            "nivel": "Nativo"
+        },
+        {
+            "idioma": "Inglés", 
+            "nivel": "Intermedio"
+        },
+        {
+            "idioma": "Español", 
+            "nivel": "Avanzado"
+        }
+    ]
 }

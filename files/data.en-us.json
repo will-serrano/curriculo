@@ -10,9 +10,12 @@
         "resumo": "Professional Summary",
         "experiencia": "Professional Experience",
         "competencias": "Key Skills",
-        "educacao": "Education"
+        "educacao": "Education",
+        "periodo": "Period",
+        "tecnologia": "Technologies",
+        "idiomas": "Languages"
     },
-    "resumo": "Over 10 years of experience in developing robust systems, with expertise in .NET technologies, REST APIs, microservices, and CI/CD. Proficient in problem analysis and delivering optimized solutions in corporate environments.",
+    "resumo": "Over 10 years of experience in <b>developing</b> and <b>sustain</b> robust systems, with expertise in .NET technologies, REST APIs, microservices, and CI/CD. Proficient in problem analysis and delivering optimized solutions in corporate environments.",
     "experiencias": [
         {
             "empresa": "Ambev",
@@ -170,9 +173,8 @@
         }
     ],
     "competencias": [
-        "C#", ".NET Core", "RESTful API", "SQL Server", "Angular", 
-        "ASP.NET", "Design Patterns", "SOLID Principles", "WCF", 
-        "DTS", "ODI", "Jenkins", "Power Automate"
+    "C# and .NET Core", "Javascript and Typescript", "Entity Framework and Dapper", "SOLID and Design Patterns", "TDD and Clean Code", "RESTful APIs and Swagger/OpenAPI", "Unit Testing with xUnit/NUnit and Mocking",
+    "SQL Server and MongoDB", "Docker and Kubernetes", "Jenkins and Octopus", "Nexus and SonarQube"
     ],
     "educacao": [
         {
@@ -188,8 +190,18 @@
             "curso": "Computer Technician"
         }
     ],
-    "idiomas": {
-        "espanhol": "Advanced",
-        "ingles": "Intermediate"
-    }
+    "idiomas": [
+        {
+            "idioma": "Portuguese", 
+            "nivel": "Native"
+        },
+        {
+            "idioma": "English", 
+            "nivel": "Intermediate"
+        },
+        {
+            "idioma": "Spanish", 
+            "nivel": "Advanced"
+        }
+    ]
 }
