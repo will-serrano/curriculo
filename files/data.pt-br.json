@@ -41,46 +41,15 @@
         }
         ,        
         {
-            "empresa": "Ambev",
-            "cargo": "Analista de Sistemas Sênior",
-            "periodo": "2024 - Atual",
-            "descricao": [
-                "Atuo no desenvolvimento e sustentação do Athena, um sistema MES da Ambev, responsável pela gestão e monitoramento dos processos produtivos para garantir o padrão de qualidade em cada etapa. O Athena é composto por diversos microsserviços, middlewares e aplicações que se conectam por mensagerias utilizando Azure Service Bus e APIs REST.",
-                "Atuo especificamente em um middleware que intercepta mensagens do sistema SODA via Azure Service Bus, direcionando eventos como abertura e fechamento de lotes e criação de coletas para outros microsserviços, incluindo o módulo Lotes, que gerencia os lotes operacionais da Ambev.",
-                "Automatizei o processo de 'subida' dos serviços locais para desenvolvimento e testes, aumentando a eficiência do time e disponibilizando essa automação para os colegas.",
-                "Contribuí com a Wiki do Projeto, adicionando informações detalhadas sobre como depurar códigos de outras bibliotecas, facilitando a curva de aprendizado de novos desenvolvedores.",
-                "Trabalho em um ambiente que adota altos padrões de qualidade de código, incluindo SOLID, Clean Architecture, Clean Code, DRY, entre outros, o que exige constante evolução e atenção aos detalhes para atender às rigorosas revisões de Pull Requests.",
-                "Utilizo migrations para a gestão de bases de dados e DataDog para monitoramento de logs e traces dos microsserviços.",
-                "Estou aprimorando meu conhecimento em mensageria, um aspecto essencial para a comunicação entre os microsserviços no contexto MES.",
-                "Contribuo ativamente com colegas que estão se adaptando ao ambiente rigoroso, promovendo uma colaboração aberta e apoiando o crescimento coletivo.",
-                "Minha interação direta com outras equipes ainda é limitada, mas tenho buscado me destacar por meio de ações que agreguem valor ao time, como a automação de processos e a documentação de boas práticas."
-            ],
-            "tecnologias": [
-                "C#",
-                "REST API",
-                "Azure Service Bus",
-                "Migrations",
-                "DataDog",
-                "SOLID",
-                "Clean Architecture",
-                "Clean Code",
-                "DRY"
-            ],
-            "ambiente": "Ambiente colaborativo com altos padrões de qualidade e foco na evolução contínua em um contexto MES."
-        }
-        ,        
-        {
             "empresa": "Gocil (Hive Group)",
             "cargo": "Analista de Sistemas Sênior",
             "periodo": "2023 - 2024",
             "descricao": [
-                "Atuei na sustentação e desenvolvimento do SGO (Sistema de Gestão Operacional), um sistema composto por diversos microsserviços e serviços desenvolvidos em C#, voltado ao gerenciamento de contratos de prestação de serviços da empresa.",
-                "Realizei manutenção contínua nos serviços back-end em C#, utilizando Entity Framework, Dapper e padrões DAO.",
-                "Refatorei processos críticos, corrigindo bugs e otimizando a performance, garantindo maior eficiência operacional.",
-                "Atuei no front-end desenvolvido em Angular, implementando melhorias no layout e desenvolvendo novas funcionalidades.",
-                "Gerenciei o ciclo de vida completo do sistema, incluindo deploys, análise de código, logs e configuração de ambientes produtivos e não-produtivos.",
-                "Aprendi e configurei ferramentas como Jenkins e Octopus, garantindo um pipeline de entrega contínua eficiente e confiável.",
-                "Trabalhei em parceria direta com o analista de processos, mantendo um contato constante para alinhar requisitos técnicos e de negócio, garantindo que as soluções desenvolvidas atendessem às necessidades operacionais da empresa."
+                "Sustentação e desenvolvimento do SGO, sistema para gerenciamento de contratos de prestação de serviços.",
+                "Manutenção e refatoração de processos críticos para correção de bugs e melhoria de performance.",
+                "Implementação de funcionalidades no front-end e melhorias no layout.",
+                "Gerenciamento do ciclo de vida completo do sistema, incluindo deploys e configuração de ambientes.",
+                "Colaboração direta com analista de processos para alinhar requisitos técnicos e de negócio."
             ],
             "tecnologias": [
                 "C#",
@@ -99,10 +68,10 @@
             "cargo": "Analista de Sistemas Sênior",
             "periodo": "2022 - 2024",
             "descricao": [
-                "Atuei na sustentação e desenvolvimento de sistemas críticos para o controle de tráfego e pedágios, com foco nos módulos responsáveis pelas praças de pedágio e pelo sistema central.",
-                "Identifiquei e corrigi bugs em sistemas de alta criticidade, garantindo a continuidade das operações.",
-                "Criei um relatório customizável para controle de passagens, inicialmente projetado para um cliente específico, mas posteriormente disponibilizado para outros clientes, gerando receita adicional para a empresa.",
-                "Desenvolvi um microsserviço para transmissão de dados de passagens a órgãos governamentais e não governamentais, integrando o sistema ao Sentry, aumentando a conformidade e eficiência do processo."
+                "Desenvolvimento e sustentação de sistemas críticos para controle de tráfego e pedágios.",
+                "Identificação e correção de bugs em sistemas de alta criticidade para garantir operações contínuas.",
+                "Criação de relatórios customizáveis para controle de passagens, gerando receita adicional para a empresa.",
+                "Desenvolvimento de microsserviço para transmissão de dados a órgãos externos, integrando sistemas e otimizando processos."
             ],
             "tecnologias": [
                 ".Net Core",
@@ -126,12 +95,11 @@
             "cargo": "Analista de Sistemas Sênior",
             "periodo": "2021 - 2022",
             "descricao": [
-                "Atuei na sustentação e evolução de sistemas financeiros complexos, relacionados a estratégias de investimento em ações da bolsa, como parte de um time ágil.",
-                "Realizei manutenção no sistema Robotrader, uma aplicação Desktop desenvolvida em C#, garantindo sua estabilidade e desempenho.",
-                "Participei da migração do sistema de controle de acesso ao Robotrader, originalmente desenvolvido em VB6, para uma solução web moderna em Angular.",
-                "Desenvolvi o modelo de banco de dados, scripts e queries para o novo sistema.",
-                "Identifiquei e converti regras de negócio codificadas diretamente no sistema legado para o novo ambiente, assegurando a continuidade das funcionalidades.",
-                "Trabalhei em alinhamento constante com o time de desenvolvimento para garantir a qualidade e evolução do produto."
+                "Sustentação e evolução de sistemas financeiros para estratégias de investimento em ações.",
+                "Manutenção e otimização do sistema Robotrader, garantindo estabilidade e desempenho.",
+                "Migração do controle de acesso do Robotrader de VB6 para uma solução web moderna.",
+                "Modelagem de banco de dados e desenvolvimento de scripts e queries para novos sistemas.",
+                "Conversão de regras de negócio de sistemas legados para o novo ambiente."
             ],
             "tecnologias": [
                 ".Net Core",
@@ -151,12 +119,11 @@
             "cargo": "Analista de Sistemas Sênior",
             "periodo": "2018 - 2021",
             "descricao": [
-                "Atuei na sustentação e desenvolvimento de sistemas voltados às áreas comerciais, operacionais e financeiras, com foco em automação, integração e eficiência.",
-                "Desenvolvi um sistema para automatizar o pareamento de Decoders e SmartCards, substituindo um processo manual que consumia, em média, 10 minutos por equipamento. Reduzi o tempo de processamento de um lote de 100 equipamentos de 16 a 17 horas para apenas 10 minutos, eliminando atrasos estruturais e permitindo o processamento de múltiplos lotes diários.",
-                "Automatizei validações entre sistemas de estoque, clientes e parceiros de vendas (PDV), reduzindo erros manuais e acelerando a redisponibilização de equipamentos para comercialização.",
-                "Atuei no monitoramento e sustentação de processos críticos diários, como queries e procedimentos do ODI (Oracle), responsáveis por enviar dados de equipamentos, campo e clientes para o Callidus (sistema de comissionamento).",
-                "Trabalhei em alinhamento com as equipes de Finanças e DataCenter, garantindo a confiabilidade e a integração dos processos financeiros.",
-                "Dividi meu tempo entre projetos de TI, sustentação de sistemas de campo e suporte às integrações financeiras."
+                "Sustentação e desenvolvimento de sistemas comerciais, operacionais e financeiros, com foco em automação e eficiência.",
+                "Automatização do pareamento de Decoders e SmartCards, reduzindo o tempo de processamento de lotes de 100 equipamentos de mais de 8 horas para 10 minutos.",
+                "Automatização de validações entre sistemas de estoque, clientes e parceiros, acelerando redisponibilização de equipamentos.",
+                "Monitoramento e sustentação de processos críticos diários, integrando dados de equipamentos e clientes ao sistema de comissionamento.",
+                "Alinhamento com equipes financeiras e de DataCenter para garantir integração e confiabilidade dos processos."
             ],
             "tecnologias": [
                 "C#",
@@ -174,14 +141,14 @@
                 "Power Automate"
             ],
             "ambiente": "Presencial e colaborativo com equipes multidisciplinares."
-        }
+        }        
         ,
         {
             "empresa": "Hexa Solution",
             "cargo": "Analista de Sistemas Pleno",
             "periodo": "2016 - 2018",
             "descricao": [
-                "Sustentação do HexaVision, sistema de controle e análise de códigos-fonte, para o cliente <b>Bradesco Alphaville</b>.",
+                "Sustentação do HexaVision, sistema de controle e análise de códigos-fonte, para o cliente Bradesco Alphaville.",
                 "Melhorias de processos e automação de rotinas críticas.",
                 "Desenvolvimento de aplicativo voltado à prestação de serviços para advogados facilitando a execução de tarefas administrativas em tribunais."
             ],
