@@ -30,6 +30,7 @@ const { jsPDF } = window.jspdf;
                 container.appendChild(createSection("skills", buildSkills(data)));
                 container.appendChild(createSection("experience", buildExperience(data)));
                 container.appendChild(createSection("education", buildEducation(data)));
+                container.appendChild(createSection("language", buildLanguage(data)));
             }
         };
 
@@ -56,21 +57,21 @@ const { jsPDF } = window.jspdf;
         };
 
         const buildSummary = (data) => `
-            <h3>Resumo Profissional</h3>
+            <h3>${data.titulos.resumo}</h3>
             <p>${data.resumo}</p>
         `;
 
         const buildExperience = (data) => {
-            let experienceHTML = '<h3>Experiência Profissional</h3>';
+            let experienceHTML = `<h3>${data.titulos.experiencia}</h3>`;
             data.experiencias.forEach(job => {
                 experienceHTML += `
                     <div class="job">
                         <h4>${job.empresa} | ${job.cargo}</h4>
-                        <p><strong>Período:</strong> ${job.periodo}</p>
+                        <p><strong>${data.titulos.periodo}:</strong> ${job.periodo}</p>
                         <ul>
                             ${job.descricao.map(item => `<li>${item}</li>`).join('')}
                         </ul>
-                        <p><strong>Tecnologias:</strong></p>
+                        <p><strong>${data.titulos.tecnologia}:</strong></p>
                         <div class="technologies">
                             ${job.tecnologias.map(tech => `<span>${tech}</span>`).join('')}
                         </div>
@@ -80,7 +81,21 @@ const { jsPDF } = window.jspdf;
             return experienceHTML;
         };
         
+        const buildLanguage = (data) => {
+            // Adiciona o título da seção
+            let languageHTML = `<h3>${data.titulos.idiomas}</h3>`;
         
+            // Itera sobre os idiomas no JSON e cria um bloco para cada um
+            data.idiomas.forEach(lang => {
+                languageHTML += `
+                    <div class="language-item">
+                        <p><strong>${lang.idioma}</strong> - ${lang.nivel}</p>
+                    </div>
+                `;
+            });
+        
+            return languageHTML;
+        };
 
         const buildEducation = (data) => {
             // Adiciona o título da seção

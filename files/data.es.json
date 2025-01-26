@@ -1,25 +1,251 @@
 {
     "nome": "Willian Nascimento Serrano",
-    "titulo": "Analista de Sistemas Senior",
+    "titulo": "Analista Senior de Sistemas",
     "contato": {
         "localizacao": "Itanhaém - SP",
         "telefone": "(13) 99791-8797",
         "email": "will.serrano.job@gmail.com"
     },
     "titulos": {
-        "resumo": "Professional Summary",
-        "experiencia": "Professional Experience",
-        "competencias": "Core Competencies",
-        "educacao": "Education"
+        "resumo": "Resumen Profesional",
+        "experiencia": "Experiencia Profesional",
+        "competencias": "Competencias Principales",
+        "educacao": "Educación",
+        "periodo": "Período",
+        "tecnologia": "Tecnologías",
+        "idiomas": "Idiomas"
     },
-    "resumo": "Más de 10 años de experiencia desarrollando sistemas robustos...",
+    "resumo": "Más de 10 años de experiencia en el <b>desarrollo</b> y <b>mantenimiento</b> de sistemas robustos., con experiencia en tecnologías .NET, APIs REST, microservicios y CI/CD. Experto en análisis de problemas y entrega de soluciones optimizadas en entornos corporativos.",
     "experiencias": [
         {
-            "empresa": "GOCIL",
-            "cargo": "Analista de Sistemas Senior",
-            "periodo": "1 año y 5 meses",
-            "descricao": "Mantenimiento y desarrollo del sistema SGO...",
-            "tecnologias": ".NET Core, API REST, MongoDB, AngularJS, CI/CD"
+            "empresa": "Ambev",
+            "cargo": "Analista Senior de Sistemas",
+            "periodo": "2024 - Actualidad",
+            "descricao": [
+                "Desarrollo y mantenimiento del sistema MES Athena, responsable de gestionar y monitorear procesos productivos.",
+                "Desarrollo de middleware para integración y enrutamiento de eventos operativos entre microservicios.",
+                "Automatización de procesos para mejorar la eficiencia del equipo.",
+                "Documentación técnica para facilitar la integración de nuevos desarrolladores.",
+                "Aplicación de estándares de calidad y mejora continua del código.",
+                "Mejora de la comunicación entre microservicios en el contexto MES."
+            ],
+            "tecnologias": [
+                "C#",
+                ".Net Core",
+                "Entity Framework",
+                "Dapper",
+                "NUnit",
+                "Mocking",
+                "FluentAssertions",
+                "Circuit Breaker",
+                "APIs RESTful",
+                "SQL Server",
+                "Migrations",
+                "MassTransit",
+                "Redis",
+                "ElasticSearch",
+                "Kibana",
+                "MongoDB",
+                "Serilog",
+                "DataDog",
+                "Kubernetes",
+                "Docker Compose",
+                "Rancher",
+                "SonarQube",
+                "Angular",
+                "Domain-Driven Design (DDD)",
+                "Design Patterns",
+                "SOLID",
+                "Clean Architecture",
+                "Clean Code",
+                "DRY",
+                "Azure DevOps",
+                "Azure Service Bus",
+                "JWT",
+                "Scrum",
+                "Kanban",
+                "Power Automate"
+            ],
+            "ambiente": "Entorno colaborativo con altos estándares de calidad y enfoque en sistemas MES."
+        },
+        {
+            "empresa": "Gocil (Hive Group)",
+            "cargo": "Analista Senior de Sistemas",
+            "periodo": "2023 - 2024",
+            "descricao": [
+                "Mantenimiento y desarrollo de SGO, sistema de gestión de contratos de prestación de servicios.",
+                "Mantenimiento y refactorización de procesos críticos para corregir errores y mejorar el rendimiento.",
+                "Implementación de funcionalidades en el front-end y mejoras en el diseño.",
+                "Gestión del ciclo de vida completo del sistema, incluidos despliegues y configuración de entornos.",
+                "Colaboración directa con analistas de procesos para alinear requisitos técnicos y de negocio."
+            ],
+            "tecnologias": [
+                "C#",
+                ".Net Core",
+                "Entity Framework",
+                "Dapper",
+                "Design Patterns",
+                "Domain-Driven Design (DDD)",
+                "APIs RESTful",
+                "SQL Server",
+                "Angular",
+                "GitLab CI/CD",
+                "Jenkins",
+                "Octopus"
+            ],
+            "ambiente": "Entorno multidisciplinario y colaborativo, enfocado en desarrollo, mantenimiento y prácticas de DevOps."
+        },
+        {
+            "empresa": "Tecsidel do Brasil",
+            "cargo": "Analista Senior de Sistemas",
+            "periodo": "2022 - 2024",
+            "descricao": [
+                "Desarrollo y mantenimiento de sistemas críticos para el control de tráfico y peajes.",
+                "Identificación y corrección de errores en sistemas de alta criticidad para garantizar operaciones continuas.",
+                "Creación de informes personalizables para el control de pasajes, generando ingresos adicionales para la empresa.",
+                "Desarrollo de un microservicio para la transmisión de datos a organismos externos, integrando sistemas y optimizando procesos."
+            ],
+            "tecnologias": [
+                "C#",
+                "ASP.Net",
+                "MVC",
+                "APIs RESTful",
+                "WCF",
+                "Javascript",
+                "AJAX",
+                "Oracle",
+                "SQL Server",
+                "Redmine",
+                "Gitlab",
+                "JAVA"
+            ],
+            "ambiente": "Completamente remoto, con colaboración entre equipos nacionales e internacionales."
+        },
+        {
+            "empresa": "BLK (MJV Technology & Innovation)",
+            "cargo": "Analista Senior de Sistemas",
+            "periodo": "2021 - 2022",
+            "descricao": [
+                "Mantenimiento y evolución de sistemas financieros para estrategias de inversión en acciones.",
+                "Mantenimiento y optimización del sistema Robotrader, garantizando estabilidad y rendimiento.",
+                "Migración del control de acceso del Robotrader de VB6 a una solución web moderna.",
+                "Modelado de bases de datos y desarrollo de scripts y consultas para nuevos sistemas.",
+                "Conversión de reglas de negocio de sistemas heredados al nuevo entorno."
+            ],
+            "tecnologias": [
+                ".Net Core",
+                "C#",
+                "ASP.Net",
+                "Angular",
+                "Jest",
+                "SQL Server",
+                "FIX",
+                "Jenkins",
+                "Nexus",
+                "SonarQube",
+                "Windows Forms",
+                "Event-Driven Architecture",
+                "Scrum",
+                "Confluence",
+                "Bitbucket"
+            ],
+            "ambiente": "Equipo ágil, colaborativo y enfocado en la evolución continua de los sistemas."
+        },
+        {
+            "empresa": "SKY Brasil (Third IT Solutions)",
+            "cargo": "Analista Senior de Sistemas",
+            "periodo": "2018 - 2021",
+            "descricao": [
+                "Mantenimiento y desarrollo de sistemas comerciales, operativos y financieros, enfocados en automatización y eficiencia.",
+                "Automatización de la vinculación de Decoders y SmartCards, reduciendo el tiempo de procesamiento de lotes de 100 equipos de más de 8 horas a 10 minutos.",
+                "Automatización de validaciones entre sistemas de inventario, clientes y socios, acelerando la redistribución de equipos.",
+                "Monitoreo y mantenimiento de procesos críticos diarios, integrando datos de equipos y clientes al sistema de comisiones.",
+                "Alineación con equipos financieros y de DataCenter para garantizar integración y confiabilidad de los procesos."
+            ],
+            "tecnologias": [
+                "C#",
+                "ASP.Net",
+                "MVC",
+                "APIs RESTful",
+                "SOAP",
+                "Console",
+                "Angular",
+                "Javascript",
+                "Oracle",
+                "SQL Server",
+                "DTS",
+                "ODI",
+                "Power Automate",
+                "Callidus",
+                "Service-Oriented Architecture",
+                "Splunk",
+                "Automation Anywhere",
+                "Power Automate",
+                "JIRA"
+            ],
+            "ambiente": "Presencial y colaborativo con equipos multidisciplinarios."
+        },
+        {
+            "empresa": "Hexa Solution",
+            "cargo": "Analista de Sistemas Semi-Senior",
+            "periodo": "2016 - 2018",
+            "descricao": [
+                "Mantenimiento de HexaVision, sistema de control y análisis de código fuente, para el cliente Bradesco Alphaville.",
+                "Mejoras de procesos y automatización de rutinas críticas.",
+                "Desarrollo de una aplicación dirigida a la prestación de servicios para abogados, facilitando la ejecución de tareas administrativas en tribunales."
+            ],
+            "tecnologias": ["ASP.Net", "VB.NET", "SQL Server", "JavaScript", "AJAX", "JQuery", "CSS", "Serviços Windows", "Serviços WCF", "Design Patterns", "Mensageria", "SVN", "Tortoise", "Vue.JS"]
+        },
+        {
+            "empresa": "TJSP - Tribunal de Justiça de São Paulo (MPS Informática)",
+            "cargo": "Analista de Sistemas Semi-Senior",
+            "periodo": "2014 - 2016",
+            "descricao": [
+                "Mantenimiento y desarrollo de sistemas de Recursos Humanos.",
+                "Sistemas: Frecuencia, Adicional por Calificación y Guardia Judicial."
+            ],
+            "tecnologias": ["C#", "SQL Server", "Entity Framework", "ASP.Net", "MVC", "Serviços WCF", "Design Patterns", "Angular JS", "Tortoise", "TFS"]
+        },
+        {
+            "empresa": "Hexa Solution",
+            "cargo": "Pasante / Analista Junior de Sistemas",
+            "periodo": "2011 - 2014",
+            "descricao": [
+                "Mantenimiento de sistemas y soporte técnico en entornos corporativos."
+            ],
+            "tecnologias": ["ASP.Net", "VB.NET", "SQL Server", "JavaScript", "AJAX", "JQuery", "CSS", "Serviços Windows", "Serviços WCF", "Design Patterns", "Mensageria", "SVN", "Tortoise"]
+        }
+    ],
+    "competencias": [
+        "C#", ".NET Core", "Javascript", "EF Core", "SOLID", "Clean Code", "Web Services", "Pruebas unitarias", "Design Patterns", 
+        "SQL Server", "MongoDB", "Container", "CI/CD"
+    ],
+    "educacao": [
+        {
+            "instituicao": "FATEC Praia Grande",
+            "curso": "Análisis y Desarrollo de Sistemas"
+        },
+        {
+            "instituicao": "ETEC Aristóteles Ferreira",
+            "curso": "Técnico en Electrónica"
+        },
+        {
+            "instituicao": "ETEC Adolpho Berezin",
+            "curso": "Técnico en Informática"
+        }
+    ],
+    "idiomas": [
+        {
+            "idioma": "Portugués", 
+            "nivel": "Nativo"
+        },
+        {
+            "idioma": "Inglés", 
+            "nivel": "Intermedio"
+        },
+        {
+            "idioma": "Español", 
+            "nivel": "Avanzado"
         }
     ]
 }

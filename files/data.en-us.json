@@ -9,17 +9,243 @@
     "titulos": {
         "resumo": "Professional Summary",
         "experiencia": "Professional Experience",
-        "competencias": "Core Competencies",
-        "educacao": "Education"
+        "competencias": "Key Skills",
+        "educacao": "Education",
+        "periodo": "Period",
+        "tecnologia": "Technologies",
+        "idiomas": "Languages"
     },
-    "resumo": "Over 10 years of experience developing robust systems...",
+    "resumo": "Over 10 years of experience in <b>developing</b> and <b>sustain</b> robust systems, with expertise in .NET technologies, REST APIs, microservices, and CI/CD. Proficient in problem analysis and delivering optimized solutions in corporate environments.",
     "experiencias": [
         {
-            "empresa": "GOCIL",
+            "empresa": "Ambev",
             "cargo": "Senior Systems Analyst",
-            "periodo": "1 year and 5 months",
-            "descricao": "Maintenance and development of the SGO system...",
-            "tecnologias": ".NET Core, API REST, MongoDB, AngularJS, CI/CD"
+            "periodo": "2024 - Present",
+            "descricao": [
+                "Development and maintenance of the MES Athena system, responsible for managing and monitoring production processes.",
+                "Middleware development for integration and routing of operational events between microservices.",
+                "Process automation to improve team efficiency.",
+                "Technical documentation to facilitate the onboarding of new developers.",
+                "Applying quality standards and continuous code improvement.",
+                "Enhancing communication between microservices within the MES context."
+            ],
+            "tecnologias": [
+                "C#",
+                ".Net Core",
+                "Entity Framework",
+                "Dapper",
+                "NUnit",
+                "Mocking",
+                "FluentAssertions",
+                "Circuit Breaker",
+                "APIs RESTful",
+                "SQL Server",
+                "Migrations",
+                "MassTransit",
+                "Redis",
+                "ElasticSearch",
+                "Kibana",
+                "MongoDB",
+                "Serilog",
+                "DataDog",
+                "Kubernetes",
+                "Docker Compose",
+                "Rancher",
+                "SonarQube",
+                "Angular",
+                "Domain-Driven Design (DDD)",
+                "Design Patterns",
+                "SOLID",
+                "Clean Architecture",
+                "Clean Code",
+                "DRY",
+                "Azure DevOps",
+                "Azure Service Bus",
+                "JWT",
+                "Scrum",
+                "Kanban",
+                "Power Automate"
+            ],
+            "ambiente": "Collaborative environment with high-quality standards and a focus on MES systems."
+        },
+        {
+            "empresa": "Gocil (Hive Group)",
+            "cargo": "Senior Systems Analyst",
+            "periodo": "2023 - 2024",
+            "descricao": [
+                "Maintenance and development of SGO, a service contract management system.",
+                "Critical process maintenance and refactoring to fix bugs and improve performance.",
+                "Implementation of front-end features and layout improvements.",
+                "Full lifecycle management of the system, including deployments and environment configuration.",
+                "Direct collaboration with process analysts to align technical and business requirements."
+            ],
+            "tecnologias": [
+                "C#",
+                ".Net Core",
+                "Entity Framework",
+                "Dapper",
+                "Design Patterns",
+                "Domain-Driven Design (DDD)",
+                "APIs RESTful",
+                "SQL Server",
+                "Angular",
+                "GitLab CI/CD",
+                "Jenkins",
+                "Octopus"
+            ],
+            "ambiente": "Multidisciplinary and collaborative environment focused on development, support, and DevOps practices."
+        },
+        {
+            "empresa": "Tecsidel do Brasil",
+            "cargo": "Senior Systems Analyst",
+            "periodo": "2022 - 2024",
+            "descricao": [
+                "Development and maintenance of critical systems for traffic and toll control.",
+                "Bug identification and fixes in high-criticality systems to ensure continuous operations.",
+                "Creation of customizable reports for passage control, generating additional revenue for the company.",
+                "Development of a microservice for data transmission to external agencies, integrating systems and optimizing processes."
+            ],
+            "tecnologias": [
+                "C#",
+                "ASP.Net",
+                "MVC",
+                "APIs RESTful",
+                "WCF",
+                "Javascript",
+                "AJAX",
+                "Oracle",
+                "SQL Server",
+                "Redmine",
+                "Gitlab",
+                "JAVA"
+            ],
+            "ambiente": "Fully remote, with collaboration among national and international teams."
+        },
+        {
+            "empresa": "BLK (MJV Technology & Innovation)",
+            "cargo": "Senior Systems Analyst",
+            "periodo": "2021 - 2022",
+            "descricao": [
+                "Maintenance and evolution of financial systems for stock investment strategies.",
+                "Maintenance and optimization of the Robotrader system, ensuring stability and performance.",
+                "Migration of Robotrader access control from VB6 to a modern web solution.",
+                "Database modeling and development of scripts and queries for new systems.",
+                "Converting business rules from legacy systems to the new environment."
+            ],
+            "tecnologias": [
+                ".Net Core",
+                "C#",
+                "ASP.Net",
+                "Angular",
+                "Jest",
+                "SQL Server",
+                "FIX",
+                "Jenkins",
+                "Nexus",
+                "SonarQube",
+                "Windows Forms",
+                "Event-Driven Architecture",
+                "Scrum",
+                "Confluence",
+                "Bitbucket"
+            ],
+            "ambiente": "Agile, collaborative team focused on continuous system evolution."
+        },
+        {
+            "empresa": "SKY Brasil (Third IT Solutions)",
+            "cargo": "Senior Systems Analyst",
+            "periodo": "2018 - 2021",
+            "descricao": [
+                "Maintenance and development of commercial, operational, and financial systems, focusing on automation and efficiency.",
+                "Automation of Decoder and SmartCard pairing, reducing batch processing time for 100 devices from over 8 hours to 10 minutes.",
+                "Automation of validations between inventory, customer, and partner systems, speeding up equipment redistributions.",
+                "Monitoring and maintenance of critical daily processes, integrating equipment and customer data into the commission system.",
+                "Alignment with financial and DataCenter teams to ensure integration and process reliability."
+            ],
+            "tecnologias": [
+                "C#",
+                "ASP.Net",
+                "MVC",
+                "APIs RESTful",
+                "SOAP",
+                "Console",
+                "Angular",
+                "Javascript",
+                "Oracle",
+                "SQL Server",
+                "DTS",
+                "ODI",
+                "Power Automate",
+                "Callidus",
+                "Service-Oriented Architecture",
+                "Splunk",
+                "Automation Anywhere",
+                "Power Automate",
+                "JIRA"
+            ],
+            "ambiente": "On-site and collaborative with multidisciplinary teams."
+        },
+        {
+            "empresa": "Hexa Solution",
+            "cargo": "Mid-Level Systems Analyst",
+            "periodo": "2016 - 2018",
+            "descricao": [
+                "Maintenance of HexaVision, a source code control and analysis system for Bradesco Alphaville.",
+                "Process improvements and automation of critical routines.",
+                "Development of an application aimed at facilitating administrative tasks in courts for lawyers."
+            ],
+            "tecnologias": ["ASP.Net", "VB.NET", "SQL Server", "JavaScript", "AJAX", "JQuery", "CSS", "Serviços Windows", "Serviços WCF", "Design Patterns", "Mensageria", "SVN", "Tortoise", "Vue.JS"]
+        },
+        {
+            "empresa": "TJSP - Tribunal de Justiça de São Paulo (MPS Informática)",
+            "cargo": "Mid-Level Systems Analyst",
+            "periodo": "2014 - 2016",
+            "descricao": [
+                "Maintenance and development of Human Resources systems.",
+                "Systems: Frequency, Qualification Bonus, and Judicial Duty."
+            ],
+            "tecnologias": ["C#", "SQL Server", "Entity Framework", "ASP.Net", "MVC", "Serviços WCF", "Design Patterns", "Angular JS", "Tortoise", "TFS"]
+        },
+        {
+            "empresa": "Hexa Solution",
+            "cargo": "Intern / Junior Systems Analyst",
+            "periodo": "2011 - 2014",
+            "descricao": [
+                "System maintenance and technical support in a corporate environment."
+            ],
+            "tecnologias": ["ASP.Net", "VB.NET", "SQL Server", "JavaScript", "AJAX", "JQuery", "CSS", "Serviços Windows", "Serviços WCF", "Design Patterns", "Mensageria", "SVN", "Tortoise"]
+        }
+    ],
+    "competencias": [
+        "C#", ".NET Core", "Javascript", "EF Core", "SOLID", "Clean Code", "Web Services", "Unit Tests", "Design Patterns", 
+        "SQL Server", "MongoDB", "Container", "CI/CD"
+    ],
+    "educacao": [
+        {
+            "instituicao": "FATEC Praia Grande",
+            "curso": "Systems Analysis and Development"
+        },
+        {
+            "instituicao": "ETEC Aristóteles Ferreira",
+            "curso": "Electronics Technician"
+        },
+        {
+            "instituicao": "ETEC Adolpho Berezin",
+            "curso": "Computer Technician"
+        }
+    ],
+    "idiomas": [
+        {
+            "idioma": "Portuguese", 
+            "nivel": "Native"
+        },
+        {
+            "idioma": "English", 
+            "nivel": "Intermediate"
+        },
+        {
+            "idioma": "Spanish", 
+            "nivel": "Advanced"
         }
     ]
 }
