@@ -31,14 +31,40 @@
             ],
             "tecnologias": [
                 "C#",
-                "REST API",
-                "Azure Service Bus",
+                ".Net Core",
+                "Entity Framework",
+                "Dapper",
+                "NUnit",
+                "Mocking",
+                "FluentAssertions",
+                "Circuit Breaker",
+                "APIs RESTful",
+                "SQL Server",
                 "Migrations",
+                "MassTransit",
+                "Redis",
+                "ElasticSearch",
+                "Kibana",
+                "MongoDB",
+                "Serilog",
                 "DataDog",
+                "Kubernetes",
+                "Docker Compose",
+                "Rancher",
+                "SonarQube",
+                "Angular",
+                "Domain-Driven Design (DDD)",
+                "Design Patterns",
                 "SOLID",
                 "Clean Architecture",
                 "Clean Code",
-                "DRY"
+                "DRY",
+                "Azure DevOps",
+                "Azure Service Bus",
+                "JWT",
+                "Scrum",
+                "Kanban",
+                "Power Automate"
             ],
             "ambiente": "Entorno colaborativo con altos estándares de calidad y enfoque en sistemas MES."
         },
@@ -55,10 +81,15 @@
             ],
             "tecnologias": [
                 "C#",
+                ".Net Core",
                 "Entity Framework",
                 "Dapper",
+                "Design Patterns",
+                "Domain-Driven Design (DDD)",
+                "APIs RESTful",
                 "SQL Server",
                 "Angular",
+                "GitLab CI/CD",
                 "Jenkins",
                 "Octopus"
             ],
@@ -75,18 +106,18 @@
                 "Desarrollo de un microservicio para la transmisión de datos a organismos externos, integrando sistemas y optimizando procesos."
             ],
             "tecnologias": [
-                ".Net Core",
                 "C#",
                 "ASP.Net",
                 "MVC",
-                "API",
+                "APIs RESTful",
                 "WCF",
-                "Services",
-                "Console",
                 "Javascript",
                 "AJAX",
                 "Oracle",
-                "SQL Server"
+                "SQL Server",
+                "Redmine",
+                "Gitlab",
+                "JAVA"
             ],
             "ambiente": "Completamente remoto, con colaboración entre equipos nacionales e internacionales."
         },
@@ -106,10 +137,17 @@
                 "C#",
                 "ASP.Net",
                 "Angular",
+                "Jest",
                 "SQL Server",
                 "FIX",
                 "Jenkins",
-                "Nexus"
+                "Nexus",
+                "SonarQube",
+                "Windows Forms",
+                "Event-Driven Architecture",
+                "Scrum",
+                "Confluence",
+                "Bitbucket"
             ],
             "ambiente": "Equipo ágil, colaborativo y enfocado en la evolución continua de los sistemas."
         },
@@ -128,16 +166,22 @@
                 "C#",
                 "ASP.Net",
                 "MVC",
-                "API",
-                "WCF",
-                "Services",
+                "APIs RESTful",
+                "SOAP",
                 "Console",
+                "Angular",
                 "Javascript",
                 "Oracle",
                 "SQL Server",
                 "DTS",
                 "ODI",
-                "Power Automate"
+                "Power Automate",
+                "Callidus",
+                "Service-Oriented Architecture",
+                "Splunk",
+                "Automation Anywhere",
+                "Power Automate",
+                "JIRA"
             ],
             "ambiente": "Presencial y colaborativo con equipos multidisciplinarios."
         },
@@ -150,7 +194,7 @@
                 "Mejoras de procesos y automatización de rutinas críticas.",
                 "Desarrollo de una aplicación dirigida a la prestación de servicios para abogados, facilitando la ejecución de tareas administrativas en tribunales."
             ],
-            "tecnologias": ["C#", "SQL Server", "ASP.NET"]
+            "tecnologias": ["ASP.Net", "VB.NET", "SQL Server", "JavaScript", "AJAX", "JQuery", "CSS", "Serviços Windows", "Serviços WCF", "Design Patterns", "Mensageria", "SVN", "Tortoise", "Vue.JS"]
         },
         {
             "empresa": "TJSP - Tribunal de Justiça de São Paulo (MPS Informática)",
@@ -160,7 +204,7 @@
                 "Mantenimiento y desarrollo de sistemas de Recursos Humanos.",
                 "Sistemas: Frecuencia, Adicional por Calificación y Guardia Judicial."
             ],
-            "tecnologias": ["C#", "SQL Server"]
+            "tecnologias": ["C#", "SQL Server", "Entity Framework", "ASP.Net", "MVC", "Serviços WCF", "Design Patterns", "Angular JS", "Tortoise", "TFS"]
         },
         {
             "empresa": "Hexa Solution",
@@ -169,12 +213,12 @@
             "descricao": [
                 "Mantenimiento de sistemas y soporte técnico en entornos corporativos."
             ],
-            "tecnologias": ["VB.NET", "SQL Server"]
+            "tecnologias": ["ASP.Net", "VB.NET", "SQL Server", "JavaScript", "AJAX", "JQuery", "CSS", "Serviços Windows", "Serviços WCF", "Design Patterns", "Mensageria", "SVN", "Tortoise"]
         }
     ],
     "competencias": [
-    "C# y .NET Core", "Javascript y Typescript", "Entity Framework y Dapper", "SOLID y Patrones de Diseño", "TDD y Clean Code", "APIs RESTful y Swagger/OpenAPI", "Pruebas Unitarias con xUnit/NUnit y Mocking",
-    "SQL Server y MongoDB", "Docker y Kubernetes", "Jenkins y Octopus", "Nexus y SonarQube"
+        "C#", ".NET Core", "Javascript", "EF Core", "SOLID", "Clean Code", "Web Services", "Pruebas unitarias", "Design Patterns", 
+        "SQL Server", "MongoDB", "Container", "CI/CD"
     ],
     "educacao": [
         {
