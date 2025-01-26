@@ -1,0 +1,280 @@
+/* Estilos globais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Container principal */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalhos */
+h1, h2, h3 {
+    color: #002060;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #0073E6;
+    padding-bottom: 5px;
+    color: #0073E6;
+}
+
+/* Seções */
+.section {
+    margin-bottom: 20px;
+}
+
+/* Contato */
+#contact p a {
+    color: #0073E6;
+    text-decoration: none;
+}
+
+#contact p a:hover {
+    text-decoration: underline;
+}
+
+/* Experiências e Educação */
+.job, .education-item {
+    margin-bottom: 15px;
+}
+
+.job {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.job:nth-child(odd) {
+    background-color: #f4f4f4;
+}
+
+.job:nth-child(even) {
+    background-color: #fff;
+}
+
+.job:not(:last-child) {
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+/* Competências */
+.skills {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+
+.skills span {
+    background: #0073E6;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+/* Estilo base para todos os SELECT */
+.custom-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #002060;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23002060" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5H7z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+}
+
+.custom-select:hover {
+    border-color: #002060;
+}
+
+.custom-select option {
+    font-size: 14px;
+    color: #002060;
+    padding: 5px;
+}
+
+/* Estilo base para botões */
+button {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #007bff;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Ajustes para dispositivos menores */
+@media (max-width: 768px) {
+    button {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .controls {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/* Estilo padrão para o link de email */
+a {
+    color: #0073E6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #005bb5;
+    text-decoration: underline;
+}
+
+/* Para links dentro do contêiner de contato */
+#contact a {
+    font-size: 14px;
+    padding: 2px 4px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+#contact a:hover {
+    background-color: #f4f4f4;
+    color: #333;
+    border-color: #ddd;
+}
+
+/* Estilo para Tecnologias no Modo Claro */
+.technologies {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.technologies span {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.technologies span:hover {
+    background-color: #0073E6;
+    color: white;
+    border-color: #005bb5;
+}
+
+/* Estilos específicos para impressão */
+@media print {
+    .controls, 
+    button, 
+    select {
+        display: none;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+        color: #000;
+        background: none;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    #curriculo {
+        margin: 10mm;
+        page-break-inside: avoid;
+        page-break-before: auto;
+        page-break-after: auto;
+    }
+
+    a {
+        color: #000;
+        text-decoration: underline;
+    }
+
+    .job {
+        page-break-inside: avoid;
+        margin-bottom: 20px;
+    }
+
+    ul {
+        page-break-inside: avoid;
+    }
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .skills span {
+        display: inline-block;
+        padding: 8px 12px;
+        background-color: #0073E6 !important;
+        color: white !important;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: bold;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .skills span:last-child {
+        margin-right: 0;
+    }
+}
