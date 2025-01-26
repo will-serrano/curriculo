@@ -19,32 +19,6 @@
             "cargo": "Analista de Sistemas Sênior",
             "periodo": "2024 - Atual",
             "descricao": [
-                "Desenvolvimento e sustentação do sistema MES Athena, responsável por gerenciar e monitorar processos produtivos.",
-                "Atuação em middleware para integração e direcionamento de eventos operacionais entre microsserviços.",
-                "Automatização de processos para melhorar a eficiência do time.",
-                "Documentação técnica para facilitar a adaptação de novos desenvolvedores.",
-                "Aplicação de padrões de qualidade e melhoria contínua do código.",
-                "Aprimoramento em comunicação entre microsserviços no contexto MES."
-            ],
-            "tecnologias": [
-                "C#",
-                "REST API",
-                "Azure Service Bus",
-                "Migrations",
-                "DataDog",
-                "SOLID",
-                "Clean Architecture",
-                "Clean Code",
-                "DRY"
-            ],
-            "ambiente": "Ambiente colaborativo com altos padrões de qualidade e foco em sistemas MES."
-        }
-        ,        
-        {
-            "empresa": "Ambev",
-            "cargo": "Analista de Sistemas Sênior",
-            "periodo": "2024 - Atual",
-            "descricao": [
                 "Atuo no desenvolvimento e sustentação do Athena, um sistema MES da Ambev, responsável pela gestão e monitoramento dos processos produtivos para garantir o padrão de qualidade em cada etapa. O Athena é composto por diversos microsserviços, middlewares e aplicações que se conectam por mensagerias utilizando Azure Service Bus e APIs REST.",
                 "Atuo especificamente em um middleware que intercepta mensagens do sistema SODA via Azure Service Bus, direcionando eventos como abertura e fechamento de lotes e criação de coletas para outros microsserviços, incluindo o módulo Lotes, que gerencia os lotes operacionais da Ambev.",
                 "Automatizei o processo de 'subida' dos serviços locais para desenvolvimento e testes, aumentando a eficiência do time e disponibilizando essa automação para os colegas.",
