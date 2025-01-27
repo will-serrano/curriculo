@@ -213,12 +213,12 @@
             "descricao": [
                 "Mantenimiento de sistemas y soporte técnico en entornos corporativos."
             ],
-            "tecnologias": ["ASP.Net", "VB.NET", "SQL Server", "JavaScript", "AJAX", "JQuery", "CSS", "Serviços Windows", "Serviços WCF", "Design Patterns", "Mensageria", "SVN", "Tortoise"]
+            "tecnologias": ["ASP.Net", "VB.NET", "SQL Server", "JavaScript", "AJAX", "JQuery", "CSS", "Serviços Windows", "Serviços WCF", "Design Patterns", "Bróker de Mensajería", "SVN", "Tortoise"]
         }
     ],
     "competencias": [
         "C#", ".NET Core", "Javascript", "EF Core", "SOLID", "Clean Code", "Web Services", "Pruebas unitarias", "Design Patterns", 
-        "SQL Server", "MongoDB", "Container", "CI/CD"
+        "SQL Server", "MongoDB", "Contenerización", "CI/CD"
     ],
     "educacao": [
         {

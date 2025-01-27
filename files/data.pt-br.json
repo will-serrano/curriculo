@@ -15,7 +15,7 @@
         "tecnologia": "Tecnologias",
         "idiomas": "Idiomas"
     },
-    "resumo": "Mais de 10 anos de experiência no <b>desenvolvimento</b> e <b>sustentação</b> de sistemas robustos, com expertise em tecnologias .NET, APIs REST, microsserviços e CI/CD. Proficiente em análise de problemas e entrega de soluções otimizadas em ambientes corporativos.",
+    "resumo": "Mais de 10 anos de experiência em <b>desenvolvimento</b> e <b>sustentação</b> de sistemas robustos, com expertise em tecnologias .NET, APIs REST, microsserviços e CI/CD. Proficiente em análise de problemas e entrega de soluções otimizadas em ambientes corporativos.",
     "experiencias": [
         {
             "empresa": "Ambev",
@@ -223,7 +223,7 @@
     ],
     "competencias": [
         "C#", ".NET Core", "Javascript", "EF Core", "SOLID", "Clean Code", "Web Services", "Testes Unitários", "Design Patterns", 
-        "SQL Server", "MongoDB", "Container", "CI/CD"
+        "SQL Server", "MongoDB", "Conteinerização", "CI/CD"
     ],
     "educacao": [
         {
