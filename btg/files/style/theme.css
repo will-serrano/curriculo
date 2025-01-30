@@ -95,6 +95,7 @@ h3 {
 
 /* Estilo base para todos os SELECT */
 .custom-select {
+    display:none;
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
