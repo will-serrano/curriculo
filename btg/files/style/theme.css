@@ -214,6 +214,13 @@ a:hover {
     border-color: #005bb5;
 }
 
+/* Classe para destacar tecnologias em vermelho */
+.technologies .highlight {
+    background-color: #ff4d4d;
+    color: white;
+    border-color: #cc0000;
+}
+
 /* Estilos específicos para impressão */
 @media print {
     .controls, 
@@ -247,7 +254,7 @@ a:hover {
     }
 
     .job {
-        /* page-break-inside: avoid; */
+        page-break-inside: avoid;
         margin-bottom: 20px;
     }
 
