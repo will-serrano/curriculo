@@ -1,0 +1,357 @@
+{
+    "nome": "Willian Nascimento Serrano",
+    "titulo": "Senior Systems Analyst",
+    "contato": {
+        "localizacao": "Itanhaém - SP",
+        "telefone": "(13) 99791-8797",
+        "email": "will.serrano.job@gmail.com"
+    },
+    "titulos": {
+        "resumo": "Professional Summary",
+        "experiencia": "Professional Experience",
+        "competencias": "Key Skills",
+        "educacao": "Education",
+        "periodo": "Period",
+        "tecnologia": "Technologies",
+        "idiomas": "Languages"
+    },
+    "resumo": "Over 10 years of experience in developing and maintaining robust systems, with expertise in .NET technologies, REST APIs, microservices, and CI/CD. Additionally, I have solid experience in relational and NoSQL databases, working in data modeling, query optimization, and high-performance system administration. My activities include creating and maintaining complex queries, views, functions, and stored procedures for data analysis and system operations. I am also proficient in tools such as SQL Server Profiler for performance monitoring and Microsoft DTS for data integration. I have a strong ability to analyze problems and deliver optimized solutions in corporate environments.",
+    "experiencias": [
+        {
+            "empresa": "Ambev",
+            "cargo": "Senior Systems Analyst",
+            "periodo": "2024 - Present",
+            "descricao": [
+                "Development and maintenance of the MES Athena system, responsible for managing and monitoring production processes.",
+                "Middleware development for integration and routing of operational events between microservices.",
+                "Process automation to improve team efficiency.",
+                "Technical documentation to facilitate the onboarding of new developers.",
+                "Applying quality standards and continuous code improvement.",
+                "Enhancing communication between microservices within the MES context.",
+                "<b>Use of SQL Server</b> for data analysis and information flow between microservices.",
+                "<b>Implementation of Redis for caching</b> and ElasticSearch for storing transient data and business model snapshots.",
+                "<b>Analysis of data flow between microservices</b> and data interception using SQL Server Profiler.",
+                "<b>Caching, Replication, Locking and Concurrency Control Analysis, Query Optimization.</b>"
+            ],
+            "tecnologias": [
+                "C#",
+                ".Net Core",
+                "EF Core",
+                "Dapper",
+                "DAO",
+                "NUnit",
+                "Mocking",
+                "FluentAssertions",
+                "Circuit Breaker",
+                "APIs RESTful",
+                "SQL Server",
+                "SQL Server Profiler",
+                "Migrations",
+                "MassTransit",
+                "Redis",
+                "ElasticSearch",
+                "Kibana",
+                "MongoDB",
+                "Serilog",
+                "DataDog",
+                "Kubernetes",
+                "Docker Compose",
+                "Rancher",
+                "SonarQube",
+                "Angular",
+                "Domain-Driven Design (DDD)",
+                "Design Patterns",
+                "SOLID",
+                "Clean Architecture",
+                "Clean Code",
+                "DRY",
+                "Azure DevOps",
+                "Azure Service Bus",
+                "JWT",
+                "Scrum",
+                "Kanban",
+                "Power Automate"
+            ],
+            "ambiente": "Collaborative environment with high-quality standards and a focus on MES systems."
+        },
+        {
+            "empresa": "Gocil (Hive Group)",
+            "cargo": "Senior Systems Analyst",
+            "periodo": "2023 - 2024",
+            "descricao": [
+                "Maintenance and development of SGO, a service contract management system.",
+                "Critical process maintenance and refactoring to fix bugs and improve performance.",
+                "Implementation of front-end features and layout improvements.",
+                "Full lifecycle management of the system, including deployments and environment configuration.",
+                "Direct collaboration with process analysts to align technical and business requirements.",
+                "<b>Maintenance and optimization of SQL queries</b> for scenario analysis and troubleshooting in production (PRD).",
+                "<b>Generation of reports for BI</b> and improvements in stored procedures.",
+                "<b>Use of EF Core, Dapper, and DAO</b> for data manipulation.",
+                "<b>Indexing, Normalization, Denormalization, Caching, Replication, Locking and Concurrency Control Analysis, Query Optimization.</b>"
+            ],
+            "tecnologias": [
+                "C#",
+                ".Net Core",
+                "EF",
+                "EF Core",
+                "Dapper",
+                "DAO",
+                "ADO.NET",
+                "Design Patterns",
+                "Domain-Driven Design (DDD)",
+                "APIs RESTful",
+                "SQL Server",
+                "Migrations",
+                "Angular",
+                "GitLab CI/CD",
+                "Jenkins",
+                "Octopus"
+            ],
+            "ambiente": "Multidisciplinary and collaborative environment focused on development, support, and DevOps practices."
+        },
+        {
+            "empresa": "Tecsidel do Brasil",
+            "cargo": "Senior Systems Analyst",
+            "periodo": "2022 - 2024",
+            "descricao": [
+                "Development and maintenance of critical systems for traffic and toll control.",
+                "Bug identification and fixes in high-criticality systems to ensure continuous operations.",
+                "Creation of customizable reports for passage control, generating additional revenue for the company.",
+                "Development of a microservice for data transmission to external agencies, integrating systems and optimizing processes.",
+                "<b>Worked with SQL Server and Oracle</b>, depending on the client (toll road operators).",
+                "<b>Developed procedures for customizable reports</b>, allowing dynamic parameterization of results.",
+                "<b>All company reports were implemented using SQL.</b>",
+                "<b>Used DAO</b> for data access.",
+                "<b>Indexing, Normalization, Denormalization, Caching, Replication, Locking and Concurrency Control Analysis, Query Optimization.</b>"
+            ],
+            "tecnologias": [
+                "C#",
+                "ASP.Net",
+                "MVC",
+                "APIs RESTful",
+                "WCF",
+                "Javascript",
+                "AJAX",
+                "Oracle",
+                "SQL Server",
+                "DAO",
+                "ADO.NET",
+                "Redmine",
+                "Gitlab",
+                "JAVA"
+            ],
+            "ambiente": "Fully remote, with collaboration among national and international teams."
+        },
+        {
+            "empresa": "BLK (MJV Technology & Innovation)",
+            "cargo": "Senior Systems Analyst",
+            "periodo": "2021 - 2022",
+            "descricao": [
+                "Maintenance and evolution of financial systems for stock investment strategies.",
+                "Maintenance and optimization of the Robotrader system, ensuring stability and performance.",
+                "Migration of Robotrader access control from VB6 to a modern web solution.",
+                "Database modeling and development of scripts and queries for new systems.",
+                "Converting business rules from legacy systems to the new environment.",
+                "<b>Database modeling for user management</b> in the Robotrader system, migrating from a legacy VB6 system to a web-based solution.",
+                "<b>Continuous data analysis</b> to identify failures in investment strategies.",
+                "<b>Utilized EF Core and Dapper</b> for data access.",
+                "<b>Indexing, Normalization, Denormalization, Caching, Replication, Locking and Concurrency Control Analysis, Query Optimization.</b>"
+            ],
+            "tecnologias": [
+                ".Net Core",
+                "C#",
+                "ASP.Net",
+                "Angular",
+                "Jest",
+                "SQL Server",
+                "EF Core",
+                "Dapper",
+                "FIX",
+                "Jenkins",
+                "Nexus",
+                "SonarQube",
+                "Windows Forms",
+                "Event-Driven Architecture",
+                "Scrum",
+                "Confluence",
+                "Bitbucket"
+            ],
+            "ambiente": "Agile, collaborative team focused on continuous system evolution."
+        },
+        {
+            "empresa": "SKY Brasil (Third IT Solutions)",
+            "cargo": "Senior Systems Analyst",
+            "periodo": "2018 - 2021",
+            "descricao": [
+                "Maintenance and development of commercial, operational, and financial systems, focusing on automation and efficiency.",
+                "Automation of Decoder and SmartCard pairing, reducing batch processing time for 100 devices from over 8 hours to 10 minutes.",
+                "Automation of validations between inventory, customer, and partner systems, speeding up equipment redistributions.",
+                "Monitoring and maintenance of critical daily processes, integrating equipment and customer data into the commission system.",
+                "Alignment with financial and DataCenter teams to ensure integration and process reliability.",
+                "<b>Maintenance and optimization of queries, views, functions, and procedures</b> for field and operational systems.",
+                "<b>Development and support for integration processes</b> using SQL Server DTS.",
+                "<b>Improvements in ODI (Oracle Data Integrator) queries</b> to optimize the commissioning process, ensuring data transmission to the Callidus cloud system.",
+                "<b>Used DAO</b> for database interaction.",
+                "<b>Indexing, Normalization, Denormalization, Caching, Replication, Locking and Concurrency Control Analysis, Query Optimization, Sharding, Partitioning, Materialized Views, Read Replicas.</b>"
+            ],
+            "tecnologias": [
+                "C#",
+                "ASP.Net",
+                "MVC",
+                "APIs RESTful",
+                "SOAP",
+                "Console",
+                "Angular",
+                "Javascript",
+                "Oracle",
+                "SQL Server",
+                "EF",
+                "DAO",
+                "ADO.NET",
+                "DTS",
+                "ODI",
+                "Power Automate",
+                "Callidus",
+                "Service-Oriented Architecture",
+                "Splunk",
+                "Automation Anywhere",
+                "Power Automate",
+                "JIRA"
+            ],
+            "ambiente": "On-site and collaborative with multidisciplinary teams."
+        },
+        {
+            "empresa": "Hexa Solution",
+            "cargo": "Mid-Level Systems Analyst",
+            "periodo": "2016 - 2018",
+            "descricao": [
+                "Maintenance of HexaVision, a source code control and analysis system for Bradesco Alphaville.",
+                "Process improvements and automation of critical routines.",
+                "Development of an application aimed at facilitating administrative tasks in courts for lawyers.",
+                "<b>Maintenance of queries, procedures, functions, and views</b> in the system.",
+                "<b>Database modeling</b> with table creation and modification for new functionalities.",
+                "<b>Analysis of data flow between systems</b> and interception using SQL Server Profiler.",
+                "<b>Indexing, Normalization, Denormalization, Caching, Replication, Locking and Concurrency Control Analysis, Query Optimization.</b>",
+                "<b>Used DAO and SQL Profiler</b> for maintenance and performance analysis."
+            ],
+            "tecnologias": [
+                "ASP.Net",
+                "VB.NET",
+                "SQL Server",
+                "SQL Server Profiler",
+                "EF",
+                "DAO",
+                "ADO.NET",
+                "JavaScript",
+                "AJAX",
+                "JQuery",
+                "CSS",
+                "Serviços Windows",
+                "Serviços WCF",
+                "Design Patterns",
+                "Mensageria",
+                "SVN",
+                "Tortoise",
+                "Vue.JS"
+            ]
+        },
+        {
+            "empresa": "TJSP - Tribunal de Justiça de São Paulo (MPS Informática)",
+            "cargo": "Mid-Level Systems Analyst",
+            "periodo": "2014 - 2016",
+            "descricao": [
+                "Maintenance and development of Human Resources systems.",
+                "Systems: Frequency, Qualification Bonus, and Judicial Duty.",
+                "<b>Maintenance and optimization of views, functions, and procedures</b> for HR systems.",
+                "<b>Database modeling and table creation</b> for new modules of the Adicional de Qualificação (AQ) and Plantão Judiciário systems.",
+                "<b>Used DAO</b> for data manipulation.",
+                "<b>Indexing, Normalization, Denormalization, Caching, Replication, Locking and Concurrency Control Analysis, Query Optimization, Materialized Views, Read Replicas.</b>"
+            ],
+            "tecnologias": [
+                "C#",
+                "SQL Server",
+                "EF",
+                "DAO",
+                "ADO.NET",
+                "ASP.Net",
+                "MVC",
+                "Serviços WCF",
+                "Design Patterns",
+                "Angular JS",
+                "Tortoise",
+                "TFS"
+            ]
+        },
+        {
+            "empresa": "Hexa Solution",
+            "cargo": "Intern / Junior Systems Analyst",
+            "periodo": "2011 - 2014",
+            "descricao": [
+                "System maintenance and technical support in a corporate environment."
+            ],
+            "tecnologias": [
+                "ASP.Net",
+                "VB.NET",
+                "SQL Server",
+                "EF",
+                "DAO",
+                "ADO.NET",
+                "JavaScript",
+                "AJAX",
+                "JQuery",
+                "CSS",
+                "Serviços Windows",
+                "Serviços WCF",
+                "Design Patterns",
+                "Messaging Broker",
+                "SVN",
+                "Tortoise"
+            ]
+        }
+    ],
+    "competencias": [
+        "C#",
+        ".NET Core",
+        "Javascript",
+        "SQL Server",
+        "Oracle",
+        "EF Core",
+        "SOLID",
+        "Clean Code",
+        "Web Services",
+        "Testes Unitários",
+        "Design Patterns",
+        "DTS",
+        "MongoDB",
+        "Conteinerização",
+        "CI/CD"
+    ],
+    "educacao": [
+        {
+            "instituicao": "FATEC Praia Grande",
+            "curso": "Systems Analysis and Development"
+        },
+        {
+            "instituicao": "ETEC Aristóteles Ferreira",
+            "curso": "Electronics Technician"
+        },
+        {
+            "instituicao": "ETEC Adolpho Berezin",
+            "curso": "Computer Technician"
+        }
+    ],
+    "idiomas": [
+        {
+            "idioma": "Portuguese",
+            "nivel": "Native"
+        },
+        {
+            "idioma": "English",
+            "nivel": "Intermediate"
+        },
+        {
+            "idioma": "Spanish",
+            "nivel": "Advanced"
+        }
+    ]
+}
