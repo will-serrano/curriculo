@@ -15,6 +15,20 @@
         "technology": "Tecnologías",
         "languages": "Idiomas"
     },
+    "report-titles": {
+        "technology-categories": "Categorías de Tecnología",
+        "programming-languages": "Lenguajes de Programación",
+        "frameworks-and-libraries": "Frameworks y Bibliotecas",
+        "databases-and-storage": "Bases de Datos y Almacenamiento",
+        "etl-and-data-integration": "ETL e Integración de Datos",
+        "devops-and-ci-cd": "DevOps y CI/CD",
+        "architecture-and-patterns": "Arquitectura y Patrones",
+        "apis-and-integrations": "APIs e Integraciones",
+        "tools-and-monitoring": "Herramientas y Monitoreo",
+        "infrastructure-and-containers": "Infraestructura y Contenedores",
+        "agile-methodologies": "Metodologías Ágiles",
+        "others": "Otros"
+    },
     "summary": "Más de 10 años de experiencia en desarrollo y mantenimiento de sistemas, con enfoque en .NET, APIs REST, microservicios y CI/CD. Experiencia en integración de sistemas, modelado de bases de datos y optimización de procesos. Conocimientos en arquitectura de software, pruebas automatizadas y metodologías ágiles.",
     "experiences": [
         {
