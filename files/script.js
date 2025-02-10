@@ -36,19 +36,19 @@ const { jsPDF } = window.jspdf;
 
         // Funções de Construção de Seções
         const buildHeader = (data) => `
-            <h1>${data.nome}</h1>
-            <h2>${data.titulo}</h2>
+            <h1>${data.name}</h1>
+            <h2>${data.title}</h2>
         `;
 
         const buildContact = (data) => `
-            <p>${data.contato.localizacao} | ${data.contato.disponibilidade} | 
-            <a href="mailto:${data.contato.email}">${data.contato.email}</a></p>
+            <p>${data.contact.location} | ${data.contact.availability} | 
+            <a href="mailto:${data.contact.email}">${data.contact.email}</a></p>
         `;
 
         const buildSkills = (data) => {
-            let skillsHTML = `<h3>${data.titulos.competencias}</h3><div class="skills">`;
+            let skillsHTML = `<h3>${data.titles.skills}</h3><div class="skills">`;
         
-            data.competencias.forEach(skill => {
+            data.skills.forEach(skill => {
                 skillsHTML += `<span>${skill}</span>`;
             });
         
@@ -57,39 +57,78 @@ const { jsPDF } = window.jspdf;
         };
 
         const buildSummary = (data) => `
-            <h3>${data.titulos.resumo}</h3>
-            <p>${data.resumo}</p>
+            <h3>${data.titles.summary}</h3>
+            <p>${data.summary}</p>
         `;
 
         const buildExperience = (data) => {
-            let experienceHTML = `<h3>${data.titulos.experiencia}</h3>`;
-            data.experiencias.forEach(job => {
+            let experienceHTML = `<h3>${data.titles.experience}</h3>`;
+            const techCount = {};
+            const ungroupedTechnologies = [];
+            const unusedTechnologies = [];
+
+            // Inicializa o contador de tecnologias
+            Object.keys(data['technology-categories']).forEach(category => {
+                data['technology-categories'][category].forEach(tech => {
+                    techCount[tech] = { count: 0 };
+                });
+            });
+
+            data.experiences.forEach(job => {
                 experienceHTML += `
                     <div class="job">
-                        <h4>${job.empresa} | ${job.cargo}</h4>
-                        <p><strong>${data.titulos.periodo}:</strong> ${job.periodo}</p>
+                        <h4>${job.company} | ${job.position}</h4>
+                        <p><strong>${data.titles.period}:</strong> ${job.period}</p>
                         <ul>
-                            ${job.descricao.map(item => `<li>${item}</li>`).join('')}
+                            ${job.description.map(item => `<li>${item}</li>`).join('')}
                         </ul>
-                        <p><strong>${data.titulos.tecnologia}:</strong></p>
+                        <p><strong>${data.titles.technology}:</strong></p>
                         <div class="technologies">
-                            ${job.tecnologias.map(tech => `<span>${tech}</span>`).join('')}
+                            ${job.technologies.map(tech => {
+                                if (techCount[tech]) {
+                                    techCount[tech].count += 1;
+                                } else {
+                                    ungroupedTechnologies.push(tech);
+                                }
+                                return `<span>${tech}</span>`;
+                            }).join('')}
                         </div>
                     </div>
                 `;
             });
+
+            // Adiciona a contagem de tecnologias ao objeto de categorias
+            Object.keys(data['technology-categories']).forEach(category => {
+                data['technology-categories'][category] = data['technology-categories'][category].map(tech => ({
+                    name: tech,
+                    count: techCount[tech] ? techCount[tech].count : 0
+                }));
+            });
+
+            // Lista as categorias-tecnologias não utilizadas
+            Object.keys(data['technology-categories']).forEach(category => {
+                data['technology-categories'][category].forEach(tech => {
+                    if (tech.count === 0) {
+                        unusedTechnologies.push(`${tech.name} (${category})`);
+                    }
+                });
+            });
+
+            console.log('Ungrouped Technologies:', ungroupedTechnologies); // Para verificar as tecnologias não agrupadas no console
+            console.log('Academic or Personal Knowledge:', unusedTechnologies); // Para verificar as tecnologias não utilizadas no console
+
             return experienceHTML;
         };
         
         const buildLanguage = (data) => {
             // Adiciona o título da seção
-            let languageHTML = `<h3>${data.titulos.idiomas}</h3>`;
+            let languageHTML = `<h3>${data.titles.languages}</h3>`;
         
             // Itera sobre os idiomas no JSON e cria um bloco para cada um
-            data.idiomas.forEach(lang => {
+            data.languages.forEach(lang => {
                 languageHTML += `
                     <div class="language-item">
-                        <p><strong>${lang.idioma}</strong> - ${lang.nivel}</p>
+                        <p><strong>${lang.language}</strong> - ${lang.level}</p>
                     </div>
                 `;
             });
@@ -99,13 +138,13 @@ const { jsPDF } = window.jspdf;
 
         const buildEducation = (data) => {
             // Adiciona o título da seção
-            let educationHTML = `<h3>${data.titulos.educacao}</h3>`;
+            let educationHTML = `<h3>${data.titles.education}</h3>`;
         
             // Itera sobre as instituições no JSON e cria um bloco para cada uma
-            data.educacao.forEach(edu => {
+            data.education.forEach(edu => {
                 educationHTML += `
                     <div class="education-item">
-                        <p><strong>${edu.instituicao}</strong> - ${edu.curso}</p>
+                        <p><strong>${edu.institution}</strong> - ${edu.course}</p>
                     </div>
                 `;
             });
@@ -134,70 +173,10 @@ const { jsPDF } = window.jspdf;
             document.body.className = theme;
         };
 
-        const downloadPDF = async () => {
-            const doc = new jsPDF({
-                orientation: "portrait",
-                unit: "mm",
-                format: "a4"
-            });
-        
-            const data = await fetchData(currentLanguage);
-            let yPosition = 20;
-        
-            doc.setFont("Helvetica", "bold");
-            doc.setFontSize(16);
-            doc.text(data.nome, 105, yPosition, { align: "center" });
-            yPosition += 10;
-        
-            doc.setFont("Helvetica", "normal");
-            doc.setFontSize(14);
-            doc.text(data.titulo, 105, yPosition, { align: "center" });
-            yPosition += 20;
-        
-            doc.setFontSize(12);
-            doc.text("Resumo Profissional:", 10, yPosition);
-            yPosition += 10;
-            const resumo = doc.splitTextToSize(data.resumo, 180);
-            doc.text(resumo, 10, yPosition);
-            yPosition += resumo.length * 8;
-        
-            doc.text("Experiência Profissional:", 10, yPosition);
-            yPosition += 10;
-        
-            data.experiencias.forEach((job) => {
-                doc.setFont("Helvetica", "bold");
-                doc.text(`${job.empresa} | ${job.cargo}`, 10, yPosition);
-                yPosition += 8;
-        
-                doc.setFont("Helvetica", "normal");
-                doc.text(`Período: ${job.periodo}`, 10, yPosition);
-                yPosition += 8;
-        
-                doc.text("Descrição:", 10, yPosition);
-                yPosition += 8;
-                job.descricao.forEach((desc) => {
-                    doc.text(`- ${desc}`, 10, yPosition);
-                    yPosition += 8;
-                });
-        
-                doc.text("Tecnologias Utilizadas:", 10, yPosition);
-                yPosition += 8;
-                job.tecnologias.forEach((tech) => {
-                    doc.text(`- ${tech}`, 10, yPosition);
-                    yPosition += 8;
-                });
-        
-                yPosition += 10; // Espaço entre experiências
-            });
-        
-            doc.save(`${data.nome.replaceAll(" ", "_")}_curriculo.pdf`);
-        };      
-
         return {
             renderCurriculo,
             changeLanguage,
-            changeTheme,
-            downloadPDF
+            changeTheme
         };
     })();
 
@@ -213,7 +192,4 @@ const { jsPDF } = window.jspdf;
         CurriculoModule.changeTheme(event.target.value);
     });
 
-    document.querySelector("#download-pdf").addEventListener("click", () => {
-        CurriculoModule.downloadPDF();
-    });
 })();
