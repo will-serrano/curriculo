@@ -1,27 +1,41 @@
 {
-    "nome": "Willian Nascimento Serrano",
-    "titulo": "Analista Senior de Sistemas",
-    "contato": {
-        "localizacao": "Itanhaém - SP",
-        "telefone": "(13) 99791-8797",
+    "name": "Willian Nascimento Serrano",
+    "title": "Analista Senior de Sistemas",
+    "contact": {
+        "location": "Itanhaém - SP",
+        "availability": "Disponible para trabajo remoto",
         "email": "will.serrano.job@gmail.com"
     },
-    "titulos": {
-        "resumo": "Resumen Profesional",
-        "experiencia": "Experiencia Profesional",
-        "competencias": "Competencias Principales",
-        "educacao": "Educación",
-        "periodo": "Período",
-        "tecnologia": "Tecnologías",
-        "idiomas": "Idiomas"
+    "titles": {
+        "summary": "Resumen Profesional",
+        "experience": "Experiencia Profesional",
+        "skills": "Competencias Principales",
+        "education": "Educación",
+        "period": "Período",
+        "technology": "Tecnologías",
+        "languages": "Idiomas"
     },
-    "resumo": "Más de 10 años de experiencia en el <b>desarrollo</b> y <b>mantenimiento</b> de sistemas robustos., con experiencia en tecnologías .NET, APIs REST, microservicios y CI/CD. Experto en análisis de problemas y entrega de soluciones optimizadas en entornos corporativos.",
-    "experiencias": [
+    "report-titles": {
+        "technology-categories": "Categorías de Tecnología",
+        "programming-languages": "Lenguajes de Programación",
+        "frameworks-and-libraries": "Frameworks y Bibliotecas",
+        "databases-and-storage": "Bases de Datos y Almacenamiento",
+        "etl-and-data-integration": "ETL e Integración de Datos",
+        "devops-and-ci-cd": "DevOps y CI/CD",
+        "architecture-and-patterns": "Arquitectura y Patrones",
+        "apis-and-integrations": "APIs e Integraciones",
+        "tools-and-monitoring": "Herramientas y Monitoreo",
+        "infrastructure-and-containers": "Infraestructura y Contenedores",
+        "agile-methodologies": "Metodologías Ágiles",
+        "others": "Otros"
+    },
+    "summary": "Más de 10 años de experiencia en desarrollo y mantenimiento de sistemas, con enfoque en .NET, APIs REST, microservicios y CI/CD. Experiencia en integración de sistemas, modelado de bases de datos y optimización de procesos. Conocimientos en arquitectura de software, pruebas automatizadas y metodologías ágiles.",
+    "experiences": [
         {
-            "empresa": "Ambev",
-            "cargo": "Analista Senior de Sistemas",
-            "periodo": "2024 - Actualidad",
-            "descricao": [
+            "company": "Ambev",
+            "position": "Analista Senior de Sistemas",
+            "period": "2024 - Actualidad",
+            "description": [
                 "Desarrollo y mantenimiento del sistema MES Athena, responsable de gestionar y monitorear procesos productivos.",
                 "Desarrollo de middleware para integración y enrutamiento de eventos operativos entre microservicios.",
                 "Automatización de procesos para mejorar la eficiencia del equipo.",
@@ -29,10 +43,9 @@
                 "Aplicación de estándares de calidad y mejora continua del código.",
                 "Mejora de la comunicación entre microservicios en el contexto MES."
             ],
-            "tecnologias": [
+            "technologies": [
                 "C#",
                 ".Net Core",
-                "Entity Framework",
                 "Dapper",
                 "NUnit",
                 "Mocking",
@@ -40,7 +53,6 @@
                 "Circuit Breaker",
                 "APIs RESTful",
                 "SQL Server",
-                "Migrations",
                 "MassTransit",
                 "Redis",
                 "ElasticSearch",
@@ -58,7 +70,6 @@
                 "SOLID",
                 "Clean Architecture",
                 "Clean Code",
-                "DRY",
                 "Azure DevOps",
                 "Azure Service Bus",
                 "JWT",
@@ -66,23 +77,22 @@
                 "Kanban",
                 "Power Automate"
             ],
-            "ambiente": "Entorno colaborativo con altos estándares de calidad y enfoque en sistemas MES."
+            "environment": "Entorno colaborativo con altos estándares de calidad y enfoque en sistemas MES."
         },
         {
-            "empresa": "Gocil (Hive Group)",
-            "cargo": "Analista Senior de Sistemas",
-            "periodo": "2023 - 2024",
-            "descricao": [
+            "company": "Gocil (Hive Group)",
+            "position": "Analista Senior de Sistemas",
+            "period": "2023 - 2024",
+            "description": [
                 "Mantenimiento y desarrollo de SGO, sistema de gestión de contratos de prestación de servicios.",
                 "Mantenimiento y refactorización de procesos críticos para corregir errores y mejorar el rendimiento.",
                 "Implementación de funcionalidades en el front-end y mejoras en el diseño.",
                 "Gestión del ciclo de vida completo del sistema, incluidos despliegues y configuración de entornos.",
                 "Colaboración directa con analistas de procesos para alinear requisitos técnicos y de negocio."
             ],
-            "tecnologias": [
+            "technologies": [
                 "C#",
                 ".Net Core",
-                "Entity Framework",
                 "Dapper",
                 "Design Patterns",
                 "Domain-Driven Design (DDD)",
@@ -91,51 +101,51 @@
                 "Angular",
                 "GitLab CI/CD",
                 "Jenkins",
-                "Octopus"
+                "Octopus",
+                "Command Query Responsibility Segregation (CQRS)"
             ],
-            "ambiente": "Entorno multidisciplinario y colaborativo, enfocado en desarrollo, mantenimiento y prácticas de DevOps."
+            "environment": "Entorno multidisciplinario y colaborativo, enfocado en desarrollo, mantenimiento y prácticas de DevOps."
         },
         {
-            "empresa": "Tecsidel do Brasil",
-            "cargo": "Analista Senior de Sistemas",
-            "periodo": "2022 - 2024",
-            "descricao": [
+            "company": "Tecsidel do Brasil",
+            "position": "Analista Senior de Sistemas",
+            "period": "2022 - 2024",
+            "description": [
                 "Desarrollo y mantenimiento de sistemas críticos para el control de tráfico y peajes.",
                 "Identificación y corrección de errores en sistemas de alta criticidad para garantizar operaciones continuas.",
                 "Creación de informes personalizables para el control de pasajes, generando ingresos adicionales para la empresa.",
                 "Desarrollo de un microservicio para la transmisión de datos a organismos externos, integrando sistemas y optimizando procesos."
             ],
-            "tecnologias": [
+            "technologies": [
                 "C#",
-                "ASP.Net",
-                "MVC",
+                ".NET Framework",
+                "Model-View-Controller (MVC)",
                 "APIs RESTful",
-                "WCF",
-                "Javascript",
-                "AJAX",
+                "SOAP",
+                "JavaScript",
                 "Oracle",
                 "SQL Server",
                 "Redmine",
-                "Gitlab",
+                "GitLab CI/CD",
                 "JAVA"
             ],
-            "ambiente": "Completamente remoto, con colaboración entre equipos nacionales e internacionales."
+            "environment": "Completamente remoto, con colaboración entre equipos nacionales e internacionales."
         },
         {
-            "empresa": "BLK (MJV Technology & Innovation)",
-            "cargo": "Analista Senior de Sistemas",
-            "periodo": "2021 - 2022",
-            "descricao": [
+            "company": "BLK (MJV Technology & Innovation)",
+            "position": "Analista Senior de Sistemas",
+            "period": "2021 - 2022",
+            "description": [
                 "Mantenimiento y evolución de sistemas financieros para estrategias de inversión en acciones.",
                 "Mantenimiento y optimización del sistema Robotrader, garantizando estabilidad y rendimiento.",
                 "Migración del control de acceso del Robotrader de VB6 a una solución web moderna.",
                 "Modelado de bases de datos y desarrollo de scripts y consultas para nuevos sistemas.",
                 "Conversión de reglas de negocio de sistemas heredados al nuevo entorno."
             ],
-            "tecnologias": [
-                ".Net Core",
+            "technologies": [
+                ".NET Core",
                 "C#",
-                "ASP.Net",
+                ".NET Framework",
                 "Angular",
                 "Jest",
                 "SQL Server",
@@ -149,103 +159,236 @@
                 "Confluence",
                 "Bitbucket"
             ],
-            "ambiente": "Equipo ágil, colaborativo y enfocado en la evolución continua de los sistemas."
+            "environment": "Equipo ágil, colaborativo y enfocado en la evolución continua de los sistemas."
         },
         {
-            "empresa": "SKY Brasil (Third IT Solutions)",
-            "cargo": "Analista Senior de Sistemas",
-            "periodo": "2018 - 2021",
-            "descricao": [
+            "company": "SKY Brasil (Third IT Solutions)",
+            "position": "Analista Senior de Sistemas",
+            "period": "2018 - 2021",
+            "description": [
                 "Mantenimiento y desarrollo de sistemas comerciales, operativos y financieros, enfocados en automatización y eficiencia.",
                 "Automatización de la vinculación de Decoders y SmartCards, reduciendo el tiempo de procesamiento de lotes de 100 equipos de más de 8 horas a 10 minutos.",
                 "Automatización de validaciones entre sistemas de inventario, clientes y socios, acelerando la redistribución de equipos.",
                 "Monitoreo y mantenimiento de procesos críticos diarios, integrando datos de equipos y clientes al sistema de comisiones.",
                 "Alineación con equipos financieros y de DataCenter para garantizar integración y confiabilidad de los procesos."
             ],
-            "tecnologias": [
+            "technologies": [
                 "C#",
-                "ASP.Net",
-                "MVC",
+                ".NET Framework",
+                "Model-View-Controller (MVC)",
                 "APIs RESTful",
                 "SOAP",
-                "Console",
+                "Windows Console",
                 "Angular",
-                "Javascript",
+                "JavaScript",
                 "Oracle",
                 "SQL Server",
                 "DTS",
                 "ODI",
                 "Power Automate",
                 "Callidus",
-                "Service-Oriented Architecture",
+                "Service-Oriented Architecture (SOA)",
                 "Splunk",
                 "Automation Anywhere",
                 "Power Automate",
                 "JIRA"
             ],
-            "ambiente": "Presencial y colaborativo con equipos multidisciplinarios."
+            "environment": "Presencial y colaborativo con equipos multidisciplinarios."
         },
         {
-            "empresa": "Hexa Solution",
-            "cargo": "Analista de Sistemas Semi-Senior",
-            "periodo": "2016 - 2018",
-            "descricao": [
+            "company": "Hexa Solution",
+            "position": "Analista de Sistemas Semi-Senior",
+            "period": "2016 - 2018",
+            "description": [
                 "Mantenimiento de HexaVision, sistema de control y análisis de código fuente, para el cliente Bradesco Alphaville.",
                 "Mejoras de procesos y automatización de rutinas críticas.",
                 "Desarrollo de una aplicación dirigida a la prestación de servicios para abogados, facilitando la ejecución de tareas administrativas en tribunales."
             ],
-            "tecnologias": ["ASP.Net", "VB.NET", "SQL Server", "JavaScript", "AJAX", "JQuery", "CSS", "Serviços Windows", "Serviços WCF", "Design Patterns", "Mensageria", "SVN", "Tortoise", "Vue.JS"]
+            "technologies": [
+                ".NET Framework",
+                "VB.NET",
+                "SQL Server",
+                "JavaScript",
+                "JQuery",
+                "Bootstrap",
+                "Windows Services",
+                "SOAP",
+                "Design Patterns",
+                "SVN",
+                "Tortoise",
+                "Vue.JS"
+            ]
         },
         {
-            "empresa": "TJSP - Tribunal de Justiça de São Paulo (MPS Informática)",
-            "cargo": "Analista de Sistemas Semi-Senior",
-            "periodo": "2014 - 2016",
-            "descricao": [
+            "company": "TJSP - Tribunal de Justiça de São Paulo (MPS Informática)",
+            "position": "Analista de Sistemas Semi-Senior",
+            "period": "2014 - 2016",
+            "description": [
                 "Mantenimiento y desarrollo de sistemas de Recursos Humanos.",
                 "Sistemas: Frecuencia, Adicional por Calificación y Guardia Judicial."
             ],
-            "tecnologias": ["C#", "SQL Server", "Entity Framework", "ASP.Net", "MVC", "Serviços WCF", "Design Patterns", "Angular JS", "Tortoise", "TFS"]
+            "technologies": [
+                "C#",
+                "SQL Server",
+                ".NET Framework",
+                "Model-View-Controller (MVC)",
+                "SOAP",
+                "Design Patterns",
+                "AngularJS",
+                "Tortoise",
+                "TFS"
+            ]
         },
         {
-            "empresa": "Hexa Solution",
-            "cargo": "Pasante / Analista Junior de Sistemas",
-            "periodo": "2011 - 2014",
-            "descricao": [
+            "company": "Hexa Solution",
+            "position": "Pasante / Analista Junior de Sistemas",
+            "period": "2011 - 2014",
+            "description": [
                 "Mantenimiento de sistemas y soporte técnico en entornos corporativos."
             ],
-            "tecnologias": ["ASP.Net", "VB.NET", "SQL Server", "JavaScript", "AJAX", "JQuery", "CSS", "Serviços Windows", "Serviços WCF", "Design Patterns", "Bróker de Mensajería", "SVN", "Tortoise"]
+            "technologies": [
+                "VB.NET",
+                "SQL Server",
+                "JavaScript",
+                "JQuery",
+                "Windows Services",
+                "SOAP",
+                "Design Patterns",
+                "SVN",
+                "Tortoise"
+            ]
         }
     ],
-    "competencias": [
-        "C#", ".NET Core", "Javascript", "EF Core", "SOLID", "Clean Code", "Web Services", "Pruebas unitarias", "Design Patterns", 
-        "SQL Server", "MongoDB", "Contenerización", "CI/CD"
+    "skills": [
+        "C#",
+        ".NET Core",
+        "JavaScript",
+        "SOAP",
+        "APIs RESTful",
+        "NUnit",
+        "Design Patterns",
+        "SQL Server"
     ],
-    "educacao": [
+    "education": [
         {
-            "instituicao": "FATEC Praia Grande",
-            "curso": "Análisis y Desarrollo de Sistemas"
+            "institution": "FATEC Praia Grande",
+            "course": "Análisis y Desarrollo de Sistemas"
         },
         {
-            "instituicao": "ETEC Aristóteles Ferreira",
-            "curso": "Técnico en Electrónica"
+            "institution": "ETEC Aristóteles Ferreira",
+            "course": "Técnico en Electrónica"
         },
         {
-            "instituicao": "ETEC Adolpho Berezin",
-            "curso": "Técnico en Informática"
+            "institution": "ETEC Adolpho Berezin",
+            "course": "Técnico en Informática"
         }
     ],
-    "idiomas": [
+    "languages": [
         {
-            "idioma": "Portugués", 
-            "nivel": "Nativo"
+            "language": "Portugués",
+            "level": "Nativo"
         },
         {
-            "idioma": "Inglés", 
-            "nivel": "Intermedio"
+            "language": "Inglés",
+            "level": "Intermedio"
         },
         {
-            "idioma": "Español", 
-            "nivel": "Avanzado"
+            "language": "Español",
+            "level": "Avanzado"
         }
-    ]
+    ],
+    "technology-categories": {
+        "programming-languages": [
+            "C#",
+            "JavaScript",
+            "JAVA",
+            "VB.NET",
+            "Node.js"
+        ],
+        "frameworks-and-libraries": [
+            ".NET Core",
+            ".NET Framework",
+            "Angular",
+            "AngularJS",
+            "Vue.JS",
+            "JQuery",
+            "Bootstrap",
+            "Tailwind CSS",
+            "Dapper",
+            "MassTransit",
+            "FluentAssertions",
+            "Jest",
+            "NUnit",
+            "Mocking",
+            "Express.js"
+        ],
+        "databases-and-storage": [
+            "SQL Server",
+            "Oracle",
+            "MongoDB",
+            "Redis",
+            "ElasticSearch"
+        ],
+        "etl-and-data-integration": [
+            "DTS",
+            "ODI"
+        ],
+        "devops-and-ci-cd": [
+            "Azure DevOps",
+            "GitLab CI/CD",
+            "Jenkins",
+            "Octopus",
+            "Bitbucket",
+            "TFS",
+            "SVN",
+            "Tortoise",
+            "Nexus"
+        ],
+        "architecture-and-patterns": [
+            "Domain-Driven Design (DDD)",
+            "Service-Oriented Architecture (SOA)",
+            "Event-Driven Architecture",
+            "Model-View-Controller (MVC)",
+            "Design Patterns",
+            "SOLID",
+            "Clean Code",
+            "Clean Architecture",
+            "Circuit Breaker",
+            "Command Query Responsibility Segregation (CQRS)"
+        ],
+        "apis-and-integrations": [
+            "APIs RESTful",
+            "SOAP",
+            "JWT",
+            "Azure Service Bus"
+        ],
+        "tools-and-monitoring": [
+            "SonarQube",
+            "DataDog",
+            "Kibana",
+            "Splunk",
+            "Redmine",
+            "JIRA",
+            "Confluence",
+            "Power Automate",
+            "Automation Anywhere",
+            "Serilog"
+        ],
+        "infrastructure-and-containers": [
+            "Kubernetes",
+            "Docker Compose",
+            "Rancher"
+        ],
+        "agile-methodologies": [
+            "Scrum",
+            "Kanban"
+        ],
+        "others": [
+            "Windows Services",
+            "Callidus",
+            "Windows Forms",
+            "Windows Console",
+            "FIX"
+        ]
+    }
 }

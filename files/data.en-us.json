@@ -1,27 +1,41 @@
 {
-    "nome": "Willian Nascimento Serrano",
-    "titulo": "Senior Systems Analyst",
-    "contato": {
-        "localizacao": "Itanhaém - SP",
-        "telefone": "(13) 99791-8797",
+    "name": "Willian Nascimento Serrano",
+    "title": "Senior Systems Analyst",
+    "contact": {
+        "location": "Itanhaém - SP",
+        "availability": "Available for remote work",
         "email": "will.serrano.job@gmail.com"
     },
-    "titulos": {
-        "resumo": "Professional Summary",
-        "experiencia": "Professional Experience",
-        "competencias": "Key Skills",
-        "educacao": "Education",
-        "periodo": "Period",
-        "tecnologia": "Technologies",
-        "idiomas": "Languages"
+    "titles": {
+        "summary": "Professional Summary",
+        "experience": "Professional Experience",
+        "skills": "Key Skills",
+        "education": "Education",
+        "period": "Period",
+        "technology": "Technologies",
+        "languages": "Languages"
     },
-    "resumo": "Over 10 years of experience in <b>developing</b> and <b>sustain</b> robust systems, with expertise in .NET technologies, REST APIs, microservices, and CI/CD. Proficient in problem analysis and delivering optimized solutions in corporate environments.",
-    "experiencias": [
+    "report-titles": {
+        "technology-categories": "Technology Categories",
+        "programming-languages": "Programming Languages",
+        "frameworks-and-libraries": "Frameworks and Libraries",
+        "databases-and-storage": "Databases and Storage",
+        "etl-and-data-integration": "ETL and Data Integration",
+        "devops-and-ci-cd": "DevOps and CI/CD",
+        "architecture-and-patterns": "Architecture and Patterns",
+        "apis-and-integrations": "APIs and Integrations",
+        "tools-and-monitoring": "Tools and Monitoring",
+        "infrastructure-and-containers": "Infrastructure and Containers",
+        "agile-methodologies": "Agile Methodologies",
+        "others": "Others"
+    },
+    "summary": "Over 10 years of experience in system development and maintenance, focusing on .NET, REST APIs, microservices, and CI/CD. Experience in system integration, database modeling, and process optimization. Skilled in software architecture, automated testing, and agile methodologies.",
+    "experiences": [
         {
-            "empresa": "Ambev",
-            "cargo": "Senior Systems Analyst",
-            "periodo": "2024 - Present",
-            "descricao": [
+            "company": "Ambev",
+            "position": "Senior Systems Analyst",
+            "period": "2024 - Present",
+            "description": [
                 "Development and maintenance of the MES Athena system, responsible for managing and monitoring production processes.",
                 "Middleware development for integration and routing of operational events between microservices.",
                 "Process automation to improve team efficiency.",
@@ -29,10 +43,9 @@
                 "Applying quality standards and continuous code improvement.",
                 "Enhancing communication between microservices within the MES context."
             ],
-            "tecnologias": [
+            "technologies": [
                 "C#",
-                ".Net Core",
-                "Entity Framework",
+                ".NET Core",
                 "Dapper",
                 "NUnit",
                 "Mocking",
@@ -40,7 +53,6 @@
                 "Circuit Breaker",
                 "APIs RESTful",
                 "SQL Server",
-                "Migrations",
                 "MassTransit",
                 "Redis",
                 "ElasticSearch",
@@ -58,7 +70,6 @@
                 "SOLID",
                 "Clean Architecture",
                 "Clean Code",
-                "DRY",
                 "Azure DevOps",
                 "Azure Service Bus",
                 "JWT",
@@ -66,23 +77,22 @@
                 "Kanban",
                 "Power Automate"
             ],
-            "ambiente": "Collaborative environment with high-quality standards and a focus on MES systems."
+            "environment": "Collaborative environment with high-quality standards and a focus on MES systems."
         },
         {
-            "empresa": "Gocil (Hive Group)",
-            "cargo": "Senior Systems Analyst",
-            "periodo": "2023 - 2024",
-            "descricao": [
+            "company": "Gocil (Hive Group)",
+            "position": "Senior Systems Analyst",
+            "period": "2023 - 2024",
+            "description": [
                 "Maintenance and development of SGO, a service contract management system.",
                 "Critical process maintenance and refactoring to fix bugs and improve performance.",
                 "Implementation of front-end features and layout improvements.",
                 "Full lifecycle management of the system, including deployments and environment configuration.",
                 "Direct collaboration with process analysts to align technical and business requirements."
             ],
-            "tecnologias": [
+            "technologies": [
                 "C#",
-                ".Net Core",
-                "Entity Framework",
+                ".NET Core",
                 "Dapper",
                 "Design Patterns",
                 "Domain-Driven Design (DDD)",
@@ -91,51 +101,51 @@
                 "Angular",
                 "GitLab CI/CD",
                 "Jenkins",
-                "Octopus"
+                "Octopus",
+                "Command Query Responsibility Segregation (CQRS)"
             ],
-            "ambiente": "Multidisciplinary and collaborative environment focused on development, support, and DevOps practices."
+            "environment": "Multidisciplinary and collaborative environment focused on development, support, and DevOps practices."
         },
         {
-            "empresa": "Tecsidel do Brasil",
-            "cargo": "Senior Systems Analyst",
-            "periodo": "2022 - 2024",
-            "descricao": [
+            "company": "Tecsidel do Brasil",
+            "position": "Senior Systems Analyst",
+            "period": "2022 - 2024",
+            "description": [
                 "Development and maintenance of critical systems for traffic and toll control.",
                 "Bug identification and fixes in high-criticality systems to ensure continuous operations.",
                 "Creation of customizable reports for passage control, generating additional revenue for the company.",
                 "Development of a microservice for data transmission to external agencies, integrating systems and optimizing processes."
             ],
-            "tecnologias": [
+            "technologies": [
                 "C#",
-                "ASP.Net",
-                "MVC",
+                ".NET Framework",
+                "Model-View-Controller (MVC)",
                 "APIs RESTful",
-                "WCF",
-                "Javascript",
-                "AJAX",
+                "SOAP",
+                "JavaScript",
                 "Oracle",
                 "SQL Server",
                 "Redmine",
-                "Gitlab",
+                "GitLab CI/CD",
                 "JAVA"
             ],
-            "ambiente": "Fully remote, with collaboration among national and international teams."
+            "environment": "Fully remote, with collaboration among national and international teams."
         },
         {
-            "empresa": "BLK (MJV Technology & Innovation)",
-            "cargo": "Senior Systems Analyst",
-            "periodo": "2021 - 2022",
-            "descricao": [
+            "company": "BLK (MJV Technology & Innovation)",
+            "position": "Senior Systems Analyst",
+            "period": "2021 - 2022",
+            "description": [
                 "Maintenance and evolution of financial systems for stock investment strategies.",
                 "Maintenance and optimization of the Robotrader system, ensuring stability and performance.",
                 "Migration of Robotrader access control from VB6 to a modern web solution.",
                 "Database modeling and development of scripts and queries for new systems.",
                 "Converting business rules from legacy systems to the new environment."
             ],
-            "tecnologias": [
-                ".Net Core",
+            "technologies": [
+                ".NET Core",
                 "C#",
-                "ASP.Net",
+                ".NET Framework",
                 "Angular",
                 "Jest",
                 "SQL Server",
@@ -149,103 +159,236 @@
                 "Confluence",
                 "Bitbucket"
             ],
-            "ambiente": "Agile, collaborative team focused on continuous system evolution."
+            "environment": "Agile, collaborative team focused on continuous system evolution."
         },
         {
-            "empresa": "SKY Brasil (Third IT Solutions)",
-            "cargo": "Senior Systems Analyst",
-            "periodo": "2018 - 2021",
-            "descricao": [
+            "company": "SKY Brasil (Third IT Solutions)",
+            "position": "Senior Systems Analyst",
+            "period": "2018 - 2021",
+            "description": [
                 "Maintenance and development of commercial, operational, and financial systems, focusing on automation and efficiency.",
                 "Automation of Decoder and SmartCard pairing, reducing batch processing time for 100 devices from over 8 hours to 10 minutes.",
                 "Automation of validations between inventory, customer, and partner systems, speeding up equipment redistributions.",
                 "Monitoring and maintenance of critical daily processes, integrating equipment and customer data into the commission system.",
                 "Alignment with financial and DataCenter teams to ensure integration and process reliability."
             ],
-            "tecnologias": [
+            "technologies": [
                 "C#",
-                "ASP.Net",
-                "MVC",
+                ".NET Framework",
+                "Model-View-Controller (MVC)",
                 "APIs RESTful",
                 "SOAP",
-                "Console",
+                "Windows Console",
                 "Angular",
-                "Javascript",
+                "JavaScript",
                 "Oracle",
                 "SQL Server",
                 "DTS",
                 "ODI",
                 "Power Automate",
                 "Callidus",
-                "Service-Oriented Architecture",
+                "Service-Oriented Architecture (SOA)",
                 "Splunk",
                 "Automation Anywhere",
                 "Power Automate",
                 "JIRA"
             ],
-            "ambiente": "On-site and collaborative with multidisciplinary teams."
+            "environment": "On-site and collaborative with multidisciplinary teams."
         },
         {
-            "empresa": "Hexa Solution",
-            "cargo": "Mid-Level Systems Analyst",
-            "periodo": "2016 - 2018",
-            "descricao": [
+            "company": "Hexa Solution",
+            "position": "Mid-Level Systems Analyst",
+            "period": "2016 - 2018",
+            "description": [
                 "Maintenance of HexaVision, a source code control and analysis system for Bradesco Alphaville.",
                 "Process improvements and automation of critical routines.",
                 "Development of an application aimed at facilitating administrative tasks in courts for lawyers."
             ],
-            "tecnologias": ["ASP.Net", "VB.NET", "SQL Server", "JavaScript", "AJAX", "JQuery", "CSS", "Serviços Windows", "Serviços WCF", "Design Patterns", "Mensageria", "SVN", "Tortoise", "Vue.JS"]
+            "technologies": [
+                ".NET Framework",
+                "VB.NET",
+                "SQL Server",
+                "JavaScript",
+                "JQuery",
+                "Bootstrap",
+                "Windows Services",
+                "SOAP",
+                "Design Patterns",
+                "SVN",
+                "Tortoise",
+                "Vue.JS"
+            ]
         },
         {
-            "empresa": "TJSP - Tribunal de Justiça de São Paulo (MPS Informática)",
-            "cargo": "Mid-Level Systems Analyst",
-            "periodo": "2014 - 2016",
-            "descricao": [
+            "company": "TJSP - Tribunal de Justiça de São Paulo (MPS Informática)",
+            "position": "Mid-Level Systems Analyst",
+            "period": "2014 - 2016",
+            "description": [
                 "Maintenance and development of Human Resources systems.",
                 "Systems: Frequency, Qualification Bonus, and Judicial Duty."
             ],
-            "tecnologias": ["C#", "SQL Server", "Entity Framework", "ASP.Net", "MVC", "Serviços WCF", "Design Patterns", "Angular JS", "Tortoise", "TFS"]
+            "technologies": [
+                "C#",
+                "SQL Server",
+                ".NET Framework",
+                "Model-View-Controller (MVC)",
+                "SOAP",
+                "Design Patterns",
+                "AngularJS",
+                "Tortoise",
+                "TFS"
+            ]
         },
         {
-            "empresa": "Hexa Solution",
-            "cargo": "Intern / Junior Systems Analyst",
-            "periodo": "2011 - 2014",
-            "descricao": [
+            "company": "Hexa Solution",
+            "position": "Intern / Junior Systems Analyst",
+            "period": "2011 - 2014",
+            "description": [
                 "System maintenance and technical support in a corporate environment."
             ],
-            "tecnologias": ["ASP.Net", "VB.NET", "SQL Server", "JavaScript", "AJAX", "JQuery", "CSS", "Serviços Windows", "Serviços WCF", "Design Patterns", "Messaging Broker", "SVN", "Tortoise"]
+            "technologies": [
+                "VB.NET",
+                "SQL Server",
+                "JavaScript",
+                "JQuery",
+                "Windows Services",
+                "SOAP",
+                "Design Patterns",
+                "SVN",
+                "Tortoise"
+            ]
         }
     ],
-    "competencias": [
-        "C#", ".NET Core", "Javascript", "EF Core", "SOLID", "Clean Code", "Web Services", "Unit Tests", "Design Patterns", 
-        "SQL Server", "MongoDB", "Containerization ", "CI/CD"
+    "skills": [
+        "C#",
+        ".NET Core",
+        "JavaScript",
+        "SOAP",
+        "APIs RESTful",
+        "NUnit",
+        "Design Patterns",
+        "SQL Server"
     ],
-    "educacao": [
+    "education": [
         {
-            "instituicao": "FATEC Praia Grande",
-            "curso": "Systems Analysis and Development"
+            "institution": "FATEC Praia Grande",
+            "course": "Systems Analysis and Development"
         },
         {
-            "instituicao": "ETEC Aristóteles Ferreira",
-            "curso": "Electronics Technician"
+            "institution": "ETEC Aristóteles Ferreira",
+            "course": "Electronics Technician"
         },
         {
-            "instituicao": "ETEC Adolpho Berezin",
-            "curso": "Computer Technician"
+            "institution": "ETEC Adolpho Berezin",
+            "course": "Computer Technician"
         }
     ],
-    "idiomas": [
+    "languages": [
         {
-            "idioma": "Portuguese", 
-            "nivel": "Native"
+            "language": "Portuguese",
+            "level": "Native"
         },
         {
-            "idioma": "English", 
-            "nivel": "Intermediate"
+            "language": "English",
+            "level": "Intermediate"
         },
         {
-            "idioma": "Spanish", 
-            "nivel": "Advanced"
+            "language": "Spanish",
+            "level": "Advanced"
         }
-    ]
+    ],
+    "technology-categories": {
+        "programming-languages": [
+            "C#",
+            "JavaScript",
+            "JAVA",
+            "VB.NET",
+            "Node.js"
+        ],
+        "frameworks-and-libraries": [
+            ".NET Core",
+            ".NET Framework",
+            "Angular",
+            "AngularJS",
+            "Vue.JS",
+            "JQuery",
+            "Bootstrap",
+            "Tailwind CSS",
+            "Dapper",
+            "MassTransit",
+            "FluentAssertions",
+            "Jest",
+            "NUnit",
+            "Mocking",
+            "Express.js"
+        ],
+        "databases-and-storage": [
+            "SQL Server",
+            "Oracle",
+            "MongoDB",
+            "Redis",
+            "ElasticSearch"
+        ],
+        "etl-and-data-integration": [
+            "DTS",
+            "ODI"
+        ],
+        "devops-and-ci-cd": [
+            "Azure DevOps",
+            "GitLab CI/CD",
+            "Jenkins",
+            "Octopus",
+            "Bitbucket",
+            "TFS",
+            "SVN",
+            "Tortoise",
+            "Nexus"
+        ],
+        "architecture-and-patterns": [
+            "Domain-Driven Design (DDD)",
+            "Service-Oriented Architecture (SOA)",
+            "Event-Driven Architecture",
+            "Model-View-Controller (MVC)",
+            "Design Patterns",
+            "SOLID",
+            "Clean Code",
+            "Clean Architecture",
+            "Circuit Breaker",
+            "Command Query Responsibility Segregation (CQRS)"
+        ],
+        "apis-and-integrations": [
+            "APIs RESTful",
+            "SOAP",
+            "JWT",
+            "Azure Service Bus"
+        ],
+        "tools-and-monitoring": [
+            "SonarQube",
+            "DataDog",
+            "Kibana",
+            "Splunk",
+            "Redmine",
+            "JIRA",
+            "Confluence",
+            "Power Automate",
+            "Automation Anywhere",
+            "Serilog"
+        ],
+        "infrastructure-and-containers": [
+            "Kubernetes",
+            "Docker Compose",
+            "Rancher"
+        ],
+        "agile-methodologies": [
+            "Scrum",
+            "Kanban"
+        ],
+        "others": [
+            "Windows Services",
+            "Callidus",
+            "Windows Forms",
+            "Windows Console",
+            "FIX"
+        ]
+    }
 }
