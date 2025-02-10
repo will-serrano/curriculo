@@ -116,10 +116,11 @@ const { jsPDF } = window.jspdf;
 
             console.log('Ungrouped Technologies:', ungroupedTechnologies); // Para verificar as tecnologias não agrupadas no console
             console.log('Academic or Personal Knowledge:', unusedTechnologies); // Para verificar as tecnologias não utilizadas no console
+            console.log('Technology Counts:', techCount); // Exibe a contagem de tecnologias no console
 
             return experienceHTML;
         };
-        
+
         const buildLanguage = (data) => {
             // Adiciona o título da seção
             let languageHTML = `<h3>${data.titles.languages}</h3>`;
