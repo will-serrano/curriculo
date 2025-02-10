@@ -3,7 +3,7 @@
     "titulo": "Analista de Sistemas Sênior",
     "contato": {
         "localizacao": "Itanhaém - SP",
-        "telefone": "(13) 99791-8797",
+        "disponibilidade": "Disponível para trabalho remoto",
         "email": "will.serrano.job@gmail.com"
     },
     "titulos": {
@@ -15,7 +15,7 @@
         "tecnologia": "Tecnologias",
         "idiomas": "Idiomas"
     },
-    "resumo": "Experiência de mais de 10 anos em desenvolvimento e sustentação de sistemas, atuando com .NET, APIs REST, microsserviços e CI/CD. Atuação em integração de sistemas, modelagem de banco de dados e otimização de processos em ambientes corporativos. Experiência com práticas de arquitetura de software, testes automatizados e metodologias ágeis.",
+    "resumo": "Mais de 10 anos de experiência em desenvolvimento e sustentação de sistemas, com foco em .NET, APIs REST, microsserviços e CI/CD. Atuação em integração de sistemas, modelagem de banco de dados e otimização de processos. Experiência com arquitetura de software, testes automatizados e metodologias ágeis.",
     "experiencias": [
         {
             "empresa": "Ambev",

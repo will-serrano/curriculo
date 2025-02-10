@@ -41,7 +41,7 @@ const { jsPDF } = window.jspdf;
         `;
 
         const buildContact = (data) => `
-            <p>${data.contato.localizacao} | ${data.contato.telefone} | 
+            <p>${data.contato.localizacao} | ${data.contato.disponibilidade} | 
             <a href="mailto:${data.contato.email}">${data.contato.email}</a></p>
         `;
 

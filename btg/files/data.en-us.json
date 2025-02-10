@@ -3,7 +3,7 @@
     "titulo": "Senior Systems Analyst",
     "contato": {
         "localizacao": "Itanhaém - SP",
-        "telefone": "(13) 99791-8797",
+        "disponibilidade": "Available for remote work7",
         "email": "will.serrano.job@gmail.com"
     },
     "titulos": {
@@ -15,7 +15,7 @@
         "tecnologia": "Technologies",
         "idiomas": "Languages"
     },
-    "resumo": "Over 10 years of experience in system development and maintenance, working with .NET, REST APIs, microservices, and CI/CD. Experience in system integration, database modeling, and process optimization in corporate environments. Skilled in software architecture practices, automated testing, and agile methodologies.",
+    "resumo": "Over 10 years of experience in system development and maintenance, focusing on .NET, REST APIs, microservices, and CI/CD. Experience in system integration, database modeling, and process optimization. Skilled in software architecture, automated testing, and agile methodologies.",
     "experiencias": [
         {
             "empresa": "Ambev",
